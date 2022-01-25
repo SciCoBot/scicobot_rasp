@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder -- -j4 -l4
+[0.037s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.228s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.416s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.417s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.606s] -- Configuring done
+[0.612s] -- Generating done
+[0.614s] -- Build files have been written to: /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder
+[0.637s] [35m[1mScanning dependencies of target listener[0m
+[0.658s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/scicobot_subscriber_encoder.cpp.o[0m
+[0.750s] [01m[K/home/otavio/dev_ws/src/scicobot_encoder/src/scicobot_subscriber_encoder.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/UInt8.h: Arquivo ou diretório inexistente
+[0.750s]    21 | #include [01;31m[K<std_msgs/UInt8.h>[m[K
+[0.750s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.750s] compilation terminated.
+[0.752s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/scicobot_subscriber_encoder.cpp.o] Erro 1
+[0.752s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Erro 2
+[0.753s] make: *** [Makefile:141: all] Erro 2
+[0.755s] Invoked command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder -- -j4 -l4

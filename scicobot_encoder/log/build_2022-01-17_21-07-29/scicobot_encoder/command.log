@@ -1,0 +1,4 @@
+Invoking command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder -- -j4 -l4
+Invoked command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder -- -j4 -l4
+Invoking command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder
+Invoked command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder

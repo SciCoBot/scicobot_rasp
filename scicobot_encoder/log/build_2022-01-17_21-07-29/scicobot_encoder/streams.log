@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder -- -j4 -l4
+[0.050s] [35m[1mScanning dependencies of target listener[0m
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/scicobot_subscriber_encoder.cpp.o[0m
+[4.363s] [100%] [32m[1mLinking CXX executable listener[0m
+[4.586s] [100%] Built target listener
+[4.596s] Invoked command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder -- -j4 -l4
+[4.625s] Invoking command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder
+[4.634s] -- Install configuration: ""
+[4.634s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/lib/scicobot_encoder/listener
+[4.636s] -- Set runtime path of "/home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/lib/scicobot_encoder/listener" to ""
+[4.636s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/ament_index/resource_index/package_run_dependencies/scicobot_encoder
+[4.636s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/ament_index/resource_index/parent_prefix_path/scicobot_encoder
+[4.636s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/ament_prefix_path.sh
+[4.636s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/ament_prefix_path.dsv
+[4.637s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/path.sh
+[4.637s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/path.dsv
+[4.637s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.bash
+[4.637s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.sh
+[4.637s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.zsh
+[4.638s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.dsv
+[4.638s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/package.dsv
+[4.638s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/ament_index/resource_index/packages/scicobot_encoder
+[4.638s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/cmake/scicobot_encoderConfig.cmake
+[4.638s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/cmake/scicobot_encoderConfig-version.cmake
+[4.638s] -- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/package.xml
+[4.641s] Invoked command in '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder

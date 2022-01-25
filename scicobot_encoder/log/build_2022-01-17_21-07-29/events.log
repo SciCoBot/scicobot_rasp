@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000405] (scicobot_encoder) JobQueued: {'identifier': 'scicobot_encoder', 'dependencies': OrderedDict()}
+[0.000444] (scicobot_encoder) JobStarted: {'identifier': 'scicobot_encoder'}
+[0.009108] (scicobot_encoder) JobProgress: {'identifier': 'scicobot_encoder', 'progress': 'cmake'}
+[0.009885] (scicobot_encoder) JobProgress: {'identifier': 'scicobot_encoder', 'progress': 'build'}
+[0.010504] (scicobot_encoder) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder', '--', '-j4', '-l4'], 'cwd': '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1378'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '999'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bb0a8492de5bd140150bc54d61e5f86e'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:38525'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1429,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1429'), ('INVOCATION_ID', 'f4c0fa2150da447dae9f7403e23d9d6a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38b86e82_cc59_4cc3_a7ee_7622c40d383b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bb0a8492de5bd140150bc54d61e5f86e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.050513] (scicobot_encoder) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.092923] (scicobot_encoder) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/scicobot_subscriber_encoder.cpp.o\x1b[0m\n'}
+[0.099383] (-) TimerEvent: {}
+[0.199649] (-) TimerEvent: {}
+[0.299889] (-) TimerEvent: {}
+[0.400155] (-) TimerEvent: {}
+[0.500424] (-) TimerEvent: {}
+[0.600696] (-) TimerEvent: {}
+[0.700965] (-) TimerEvent: {}
+[0.801236] (-) TimerEvent: {}
+[0.901474] (-) TimerEvent: {}
+[1.001708] (-) TimerEvent: {}
+[1.101953] (-) TimerEvent: {}
+[1.202224] (-) TimerEvent: {}
+[1.302471] (-) TimerEvent: {}
+[1.402757] (-) TimerEvent: {}
+[1.503026] (-) TimerEvent: {}
+[1.603296] (-) TimerEvent: {}
+[1.703564] (-) TimerEvent: {}
+[1.803840] (-) TimerEvent: {}
+[1.904109] (-) TimerEvent: {}
+[2.004380] (-) TimerEvent: {}
+[2.104628] (-) TimerEvent: {}
+[2.204941] (-) TimerEvent: {}
+[2.305180] (-) TimerEvent: {}
+[2.405429] (-) TimerEvent: {}
+[2.505688] (-) TimerEvent: {}
+[2.605952] (-) TimerEvent: {}
+[2.706221] (-) TimerEvent: {}
+[2.806451] (-) TimerEvent: {}
+[2.906725] (-) TimerEvent: {}
+[3.006994] (-) TimerEvent: {}
+[3.107271] (-) TimerEvent: {}
+[3.207536] (-) TimerEvent: {}
+[3.307796] (-) TimerEvent: {}
+[3.408059] (-) TimerEvent: {}
+[3.508319] (-) TimerEvent: {}
+[3.608583] (-) TimerEvent: {}
+[3.708828] (-) TimerEvent: {}
+[3.809089] (-) TimerEvent: {}
+[3.909352] (-) TimerEvent: {}
+[4.009581] (-) TimerEvent: {}
+[4.109821] (-) TimerEvent: {}
+[4.210085] (-) TimerEvent: {}
+[4.310329] (-) TimerEvent: {}
+[4.362998] (scicobot_encoder) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[4.410461] (-) TimerEvent: {}
+[4.510715] (-) TimerEvent: {}
+[4.586317] (scicobot_encoder) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[4.596303] (scicobot_encoder) CommandEnded: {'returncode': 0}
+[4.610840] (-) TimerEvent: {}
+[4.615878] (scicobot_encoder) JobProgress: {'identifier': 'scicobot_encoder', 'progress': 'install'}
+[4.625457] (scicobot_encoder) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder'], 'cwd': '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1378'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '999'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bb0a8492de5bd140150bc54d61e5f86e'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:38525'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1429,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1429'), ('INVOCATION_ID', 'f4c0fa2150da447dae9f7403e23d9d6a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38b86e82_cc59_4cc3_a7ee_7622c40d383b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/dev_ws/src/scicobot_encoder/build/scicobot_encoder'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bb0a8492de5bd140150bc54d61e5f86e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.634594] (scicobot_encoder) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.634891] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/lib/scicobot_encoder/listener\n'}
+[4.636352] (scicobot_encoder) StdoutLine: {'line': b'-- Set runtime path of "/home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/lib/scicobot_encoder/listener" to ""\n'}
+[4.636522] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/ament_index/resource_index/package_run_dependencies/scicobot_encoder\n'}
+[4.636636] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/ament_index/resource_index/parent_prefix_path/scicobot_encoder\n'}
+[4.636755] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/ament_prefix_path.sh\n'}
+[4.636893] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/ament_prefix_path.dsv\n'}
+[4.637065] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/path.sh\n'}
+[4.637251] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/environment/path.dsv\n'}
+[4.637435] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.bash\n'}
+[4.637660] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.sh\n'}
+[4.637828] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.zsh\n'}
+[4.637955] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/local_setup.dsv\n'}
+[4.638092] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/package.dsv\n'}
+[4.638258] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/ament_index/resource_index/packages/scicobot_encoder\n'}
+[4.638419] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/cmake/scicobot_encoderConfig.cmake\n'}
+[4.638653] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/cmake/scicobot_encoderConfig-version.cmake\n'}
+[4.638785] (scicobot_encoder) StdoutLine: {'line': b'-- Installing: /home/otavio/dev_ws/src/scicobot_encoder/install/scicobot_encoder/share/scicobot_encoder/package.xml\n'}
+[4.640345] (scicobot_encoder) CommandEnded: {'returncode': 0}
+[4.677340] (scicobot_encoder) JobEnded: {'identifier': 'scicobot_encoder', 'rc': 0}
+[4.678040] (-) EventReactorShutdown: {}
