@@ -1,7 +1,21 @@
 # scicobot_rasp
 
+## Descrição
 
-Trabalhos futuros
+### scicobot_encoder
+
+Criar dois inscritos, utilizados para receber dados publicados dos sensores encoders, escrevendo na janela os valores obtidos.
+
+### scicobot_move_on
+
+Criar um editor para enviar dados publicados dados, para isso, é os dados dos sensores encoders e ultrassônico são analisados.
+
+### scicobot_ultrasonic
+
+Criar um inscrito para receber dados publicados do ultrassônico e escreve na janela os valores obtidos.
+
+
+## Trabalhos futuros
 - Adicionar aplicação que executa a dinâmica de trabalho 
 ```
 source /opt/ros/foxy/setup.bash
