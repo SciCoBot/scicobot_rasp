@@ -1,0 +1,10 @@
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/install/strip.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/install/local.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/install.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/list_install_components.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/rebuild_cache.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/edit_cache.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/test.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/listener_encoder.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/scicobot_encoder_uninstall.dir
+/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/uninstall.dir

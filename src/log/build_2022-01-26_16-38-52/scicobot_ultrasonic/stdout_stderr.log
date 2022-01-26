@@ -1,0 +1,45 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/otavio/scicobot_rasp/src/build/scicobot_ultrasonic
+[35m[1mScanning dependencies of target listener_ultrasonic[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener_ultrasonic.dir/src/scicobot_subscriber_ultrasonic.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listener_ultrasonic[0m
+[100%] Built target listener_ultrasonic
+-- Install configuration: ""
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/lib/scicobot_ultrasonic/listener_ultrasonic
+-- Set runtime path of "/home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/lib/scicobot_ultrasonic/listener_ultrasonic" to ""
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/ament_index/resource_index/package_run_dependencies/scicobot_ultrasonic
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/ament_index/resource_index/parent_prefix_path/scicobot_ultrasonic
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/ament_prefix_path.sh
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/ament_prefix_path.dsv
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/path.sh
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/path.dsv
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.bash
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.sh
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.zsh
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.dsv
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/package.dsv
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/ament_index/resource_index/packages/scicobot_ultrasonic
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/cmake/scicobot_ultrasonicConfig.cmake
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/cmake/scicobot_ultrasonicConfig-version.cmake
+-- Installing: /home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic/share/scicobot_ultrasonic/package.xml

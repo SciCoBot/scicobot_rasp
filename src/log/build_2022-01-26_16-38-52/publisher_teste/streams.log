@@ -1,0 +1,51 @@
+[0.031s] Invoking command in '/home/otavio/scicobot_rasp/src/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/publisher_teste -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/publisher_teste
+[0.084s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.085s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.085s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.437s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.616s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.671s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.887s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.889s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.890s] -- Looking for pthread.h
+[0.989s] -- Looking for pthread.h - found
+[0.990s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.094s] -- Looking for pthread_create in pthreads
+[1.170s] -- Looking for pthread_create in pthreads - not found
+[1.171s] -- Looking for pthread_create in pthread
+[1.267s] -- Looking for pthread_create in pthread - found
+[1.267s] -- Found Threads: TRUE  
+[1.655s] -- Configuring done
+[1.665s] -- Generating done
+[1.668s] -- Build files have been written to: /home/otavio/scicobot_rasp/src/build/publisher_teste
+[1.681s] Invoked command in '/home/otavio/scicobot_rasp/src/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/publisher_teste -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/publisher_teste
+[1.682s] Invoking command in '/home/otavio/scicobot_rasp/src/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/src/build/publisher_teste -- -j4 -l4
+[1.738s] [35m[1mScanning dependencies of target pub_tes[0m
+[1.779s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_tes.dir/src/publisher_teste.cpp.o[0m
+[6.743s] [100%] [32m[1mLinking CXX executable pub_tes[0m
+[7.076s] [100%] Built target pub_tes
+[7.093s] Invoked command in '/home/otavio/scicobot_rasp/src/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/src/build/publisher_teste -- -j4 -l4
+[7.153s] Invoking command in '/home/otavio/scicobot_rasp/src/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/src/build/publisher_teste
+[7.167s] -- Install configuration: ""
+[7.167s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/lib/publisher_teste/pub_tes
+[7.169s] -- Set runtime path of "/home/otavio/scicobot_rasp/src/install/publisher_teste/lib/publisher_teste/pub_tes" to ""
+[7.169s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/ament_index/resource_index/package_run_dependencies/publisher_teste
+[7.171s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/ament_index/resource_index/parent_prefix_path/publisher_teste
+[7.172s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/environment/ament_prefix_path.sh
+[7.172s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/environment/ament_prefix_path.dsv
+[7.172s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/environment/path.sh
+[7.172s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/environment/path.dsv
+[7.173s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/local_setup.bash
+[7.173s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/local_setup.sh
+[7.173s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/local_setup.zsh
+[7.174s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/local_setup.dsv
+[7.174s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/package.dsv
+[7.174s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/ament_index/resource_index/packages/publisher_teste
+[7.175s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/cmake/publisher_testeConfig.cmake
+[7.175s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/cmake/publisher_testeConfig-version.cmake
+[7.175s] -- Installing: /home/otavio/scicobot_rasp/src/install/publisher_teste/share/publisher_teste/package.xml
+[7.188s] Invoked command in '/home/otavio/scicobot_rasp/src/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/src/build/publisher_teste

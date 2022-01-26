@@ -1,0 +1,8 @@
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_rasp/src/test_cooperation_rasp.cpp:[m[K In function ‘[01m[Kfloat tempMeasure()[m[K’:
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_rasp/src/test_cooperation_rasp.cpp:31:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kn[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   31 |     int [01;35m[Kn[m[K;
+      |         [01;35m[K^[m[K
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_rasp/src/test_cooperation_rasp.cpp:[m[K In member function ‘[01m[Kvoid MinimalNode::topic_callback(std_msgs::msg::UInt8_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_rasp/src/test_cooperation_rasp.cpp:72:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmessage[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   72 |      auto [01;35m[Kmessage[m[K = std_msgs::msg::UInt8();
+      |           [01;35m[K^~~~~~~[m[K

@@ -1,0 +1,37 @@
+[0.047s] Invoking command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/test_cooperation_scicobot -- -j4 -l4
+[0.079s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.291s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.325s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.482s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.682s] -- Configuring done
+[0.688s] -- Generating done
+[0.689s] -- Build files have been written to: /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
+[0.712s] [35m[1mScanning dependencies of target cooperation[0m
+[0.734s] [ 50%] [32mBuilding CXX object CMakeFiles/cooperation.dir/src/simple_test_cooperation.cpp.o[0m
+[5.397s] [100%] [32m[1mLinking CXX executable cooperation[0m
+[5.738s] [100%] Built target cooperation
+[5.748s] Invoked command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/test_cooperation_scicobot -- -j4 -l4
+[5.784s] Invoking command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
+[5.793s] -- Install configuration: ""
+[5.793s] -- Installing: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/lib/test_cooperation_scicobot/cooperation
+[5.795s] -- Set runtime path of "/home/otavio/scicobot_rasp/install/test_cooperation_scicobot/lib/test_cooperation_scicobot/cooperation" to ""
+[5.795s] -- Installing: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/ament_index/resource_index/package_run_dependencies/test_cooperation_scicobot
+[5.795s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/ament_index/resource_index/parent_prefix_path/test_cooperation_scicobot
+[5.795s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/environment/ament_prefix_path.sh
+[5.795s] -- Installing: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/environment/ament_prefix_path.dsv
+[5.795s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/environment/path.sh
+[5.795s] -- Installing: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/environment/path.dsv
+[5.796s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/local_setup.bash
+[5.796s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/local_setup.sh
+[5.796s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/local_setup.zsh
+[5.796s] -- Installing: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/local_setup.dsv
+[5.796s] -- Installing: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/package.dsv
+[5.796s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/ament_index/resource_index/packages/test_cooperation_scicobot
+[5.796s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/cmake/test_cooperation_scicobotConfig.cmake
+[5.796s] -- Up-to-date: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/cmake/test_cooperation_scicobotConfig-version.cmake
+[5.796s] -- Installing: /home/otavio/scicobot_rasp/install/test_cooperation_scicobot/share/test_cooperation_scicobot/package.xml
+[5.799s] Invoked command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/test_cooperation_scicobot

@@ -1,0 +1,2 @@
+Invoking command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot': /usr/bin/cmake /home/otavio/scicobot_rasp/src/test_cooperation_scicobot -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/test_cooperation_scicobot
+Invoked command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot' returned '1': /usr/bin/cmake /home/otavio/scicobot_rasp/src/test_cooperation_scicobot -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/test_cooperation_scicobot

@@ -1,0 +1,10 @@
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/install/strip.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/install/local.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/install.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/list_install_components.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/rebuild_cache.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/edit_cache.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/test.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/cooperation.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/test_cooperation_scicobot_uninstall.dir
+/home/otavio/scicobot_rasp/src/build/test_cooperation_scicobot/CMakeFiles/uninstall.dir

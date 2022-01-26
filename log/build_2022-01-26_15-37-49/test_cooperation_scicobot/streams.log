@@ -1,0 +1,14 @@
+[0.047s] Invoking command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/test_cooperation_scicobot -- -j4 -l4
+[0.088s] [35m[1mScanning dependencies of target cooperation[0m
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/cooperation.dir/src/simple_test_cooperation.cpp.o[0m
+[1.280s] [01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:[m[K In member function ‘[01m[Kvoid MinimalNode::topic_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.280s] [01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:40:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[1.280s]    40 |      message.[01;31m[Kdata[m[K = msg->data
+[1.280s]       |              [01;31m[K^~~~[m[K
+[1.280s] [01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:40:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.280s]    40 |      message.data = msg->[01;31m[Kdata[m[K
+[1.280s]       |                          [01;31m[K^~~~[m[K
+[2.570s] make[2]: *** [CMakeFiles/cooperation.dir/build.make:63: CMakeFiles/cooperation.dir/src/simple_test_cooperation.cpp.o] Erro 1
+[2.570s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cooperation.dir/all] Erro 2
+[2.571s] make: *** [Makefile:141: all] Erro 2
+[2.572s] Invoked command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/test_cooperation_scicobot -- -j4 -l4

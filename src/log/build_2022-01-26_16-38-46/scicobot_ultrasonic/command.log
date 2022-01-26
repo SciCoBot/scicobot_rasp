@@ -1,0 +1,2 @@
+Invoking command in '/home/otavio/scicobot_rasp/src/build/scicobot_ultrasonic': /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_ultrasonic -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic
+Invoked command in '/home/otavio/scicobot_rasp/src/build/scicobot_ultrasonic' returned '1': /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_ultrasonic -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic

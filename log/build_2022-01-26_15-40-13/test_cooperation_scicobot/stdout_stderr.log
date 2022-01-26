@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target cooperation[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cooperation.dir/src/simple_test_cooperation.cpp.o[0m
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:[m[K In member function ‘[01m[Kvoid MinimalNode::topic_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:40:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   40 |      message.linear.x = msg->linear[01;31m[K->[m[Kx;
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:41:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   41 |      message.linear.y = msg->linear[01;31m[K->[m[Ky;
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:42:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   42 |      message.linear.z = msg->linear[01;31m[K->[m[Kz;
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:44:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_angular_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   44 |      message.angular.x = msg->angular[01;31m[K->[m[Kx;
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:45:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_angular_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   45 |      message.angular.y = msg->angular[01;31m[K->[m[Ky;
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:46:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_angular_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   46 |      message.angular.z = msg->angular[01;31m[K->[m[Kz;
+      |                                      [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/cooperation.dir/build.make:63: CMakeFiles/cooperation.dir/src/simple_test_cooperation.cpp.o] Erro 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cooperation.dir/all] Erro 2
+make: *** [Makefile:141: all] Erro 2

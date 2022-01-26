@@ -1,0 +1,6 @@
+Invoking command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_encoder -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_encoder
+Invoked command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_encoder -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_encoder
+Invoking command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/src/build/scicobot_encoder -- -j4 -l4
+Invoked command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/src/build/scicobot_encoder -- -j4 -l4
+Invoking command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/src/build/scicobot_encoder
+Invoked command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/src/build/scicobot_encoder

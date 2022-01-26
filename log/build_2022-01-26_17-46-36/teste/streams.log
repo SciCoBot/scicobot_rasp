@@ -1,0 +1,22 @@
+[0.041s] Invoking command in '/home/otavio/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/teste -- -j4 -l4
+[0.117s] [100%] Built target teste
+[0.128s] Invoked command in '/home/otavio/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/teste -- -j4 -l4
+[0.157s] Invoking command in '/home/otavio/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/teste
+[0.170s] -- Install configuration: ""
+[0.171s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/lib/teste/teste
+[0.171s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/ament_index/resource_index/package_run_dependencies/teste
+[0.171s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/ament_index/resource_index/parent_prefix_path/teste
+[0.172s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/environment/path.sh
+[0.172s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/environment/path.dsv
+[0.173s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.bash
+[0.173s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.sh
+[0.174s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.zsh
+[0.174s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.dsv
+[0.174s] -- Installing: /home/otavio/scicobot_rasp/install/teste/share/teste/package.dsv
+[0.175s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/ament_index/resource_index/packages/teste
+[0.175s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/cmake/testeConfig.cmake
+[0.175s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/cmake/testeConfig-version.cmake
+[0.175s] -- Up-to-date: /home/otavio/scicobot_rasp/install/teste/share/teste/package.xml
+[0.183s] Invoked command in '/home/otavio/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/teste

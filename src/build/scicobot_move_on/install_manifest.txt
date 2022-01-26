@@ -1,0 +1,16 @@
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/lib/scicobot_move_on/move_on
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/ament_index/resource_index/package_run_dependencies/scicobot_move_on
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/ament_index/resource_index/parent_prefix_path/scicobot_move_on
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/environment/ament_prefix_path.sh
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/environment/ament_prefix_path.dsv
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/environment/path.sh
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/environment/path.dsv
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/local_setup.bash
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/local_setup.sh
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/local_setup.zsh
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/local_setup.dsv
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/package.dsv
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/ament_index/resource_index/packages/scicobot_move_on
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/cmake/scicobot_move_onConfig.cmake
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/cmake/scicobot_move_onConfig-version.cmake
+/home/otavio/scicobot_rasp/src/install/scicobot_move_on/share/scicobot_move_on/package.xml

@@ -1,0 +1,22 @@
+[0.033s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_move_on -- -j4 -l4
+[0.126s] [100%] Built target move_on
+[0.143s] Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_move_on -- -j4 -l4
+[0.193s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/scicobot_move_on
+[0.206s] -- Install configuration: ""
+[0.206s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/lib/scicobot_move_on/move_on
+[0.206s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/ament_index/resource_index/package_run_dependencies/scicobot_move_on
+[0.206s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/ament_index/resource_index/parent_prefix_path/scicobot_move_on
+[0.206s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/ament_prefix_path.sh
+[0.207s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/ament_prefix_path.dsv
+[0.207s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/path.sh
+[0.207s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/path.dsv
+[0.208s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.bash
+[0.208s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.sh
+[0.208s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.zsh
+[0.208s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.dsv
+[0.208s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/package.dsv
+[0.208s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/ament_index/resource_index/packages/scicobot_move_on
+[0.209s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/cmake/scicobot_move_onConfig.cmake
+[0.209s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/cmake/scicobot_move_onConfig-version.cmake
+[0.209s] -- Up-to-date: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/package.xml
+[0.246s] Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/scicobot_move_on

@@ -1,0 +1,2 @@
+Invoking command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder': /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_encoder -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_encoder
+Invoked command in '/home/otavio/scicobot_rasp/src/build/scicobot_encoder' returned '1': /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_encoder -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_encoder

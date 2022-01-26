@@ -1,0 +1,22 @@
+[0.113s] Invoking command in '/home/otavio/scicobot_rasp/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/publisher_teste -- -j4 -l4
+[0.455s] [100%] Built target pub_tes
+[0.472s] Invoked command in '/home/otavio/scicobot_rasp/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/publisher_teste -- -j4 -l4
+[0.524s] Invoking command in '/home/otavio/scicobot_rasp/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/publisher_teste
+[0.538s] -- Install configuration: ""
+[0.587s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/lib/publisher_teste/pub_tes
+[0.588s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/ament_index/resource_index/package_run_dependencies/publisher_teste
+[0.588s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/ament_index/resource_index/parent_prefix_path/publisher_teste
+[0.588s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/environment/ament_prefix_path.sh
+[0.589s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/environment/ament_prefix_path.dsv
+[0.590s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/environment/path.sh
+[0.590s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/environment/path.dsv
+[0.591s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/local_setup.bash
+[0.592s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/local_setup.sh
+[0.592s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/local_setup.zsh
+[0.593s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/local_setup.dsv
+[0.599s] -- Installing: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/package.dsv
+[0.600s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/ament_index/resource_index/packages/publisher_teste
+[0.601s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/cmake/publisher_testeConfig.cmake
+[0.601s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/cmake/publisher_testeConfig-version.cmake
+[0.602s] -- Up-to-date: /home/otavio/scicobot_rasp/install/publisher_teste/share/publisher_teste/package.xml
+[0.773s] Invoked command in '/home/otavio/scicobot_rasp/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/publisher_teste

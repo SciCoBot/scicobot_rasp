@@ -1,0 +1,6 @@
+Invoking command in '/home/otavio/scicobot_rasp/src/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/publisher_teste -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/publisher_teste
+Invoked command in '/home/otavio/scicobot_rasp/src/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/publisher_teste -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/publisher_teste
+Invoking command in '/home/otavio/scicobot_rasp/src/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/src/build/publisher_teste -- -j4 -l4
+Invoked command in '/home/otavio/scicobot_rasp/src/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/src/build/publisher_teste -- -j4 -l4
+Invoking command in '/home/otavio/scicobot_rasp/src/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/src/build/publisher_teste
+Invoked command in '/home/otavio/scicobot_rasp/src/build/publisher_teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/src/build/publisher_teste

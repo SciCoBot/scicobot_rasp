@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000113] (publisher_teste) JobQueued: {'identifier': 'publisher_teste', 'dependencies': OrderedDict()}
+[0.000147] (scicobot_encoder) JobQueued: {'identifier': 'scicobot_encoder', 'dependencies': OrderedDict()}
+[0.000169] (scicobot_move_on) JobQueued: {'identifier': 'scicobot_move_on', 'dependencies': OrderedDict()}
+[0.000187] (scicobot_ultrasonic) JobQueued: {'identifier': 'scicobot_ultrasonic', 'dependencies': OrderedDict()}
+[0.000204] (test_cooperation_scicobot) JobQueued: {'identifier': 'test_cooperation_scicobot', 'dependencies': OrderedDict()}
+[0.000259] (teste) JobQueued: {'identifier': 'teste', 'dependencies': OrderedDict()}
+[0.000280] (publisher_teste) JobStarted: {'identifier': 'publisher_teste'}
+[0.005963] (scicobot_encoder) JobStarted: {'identifier': 'scicobot_encoder'}
+[0.009789] (scicobot_move_on) JobStarted: {'identifier': 'scicobot_move_on'}
+[0.014180] (scicobot_ultrasonic) JobStarted: {'identifier': 'scicobot_ultrasonic'}
+[0.020224] (publisher_teste) JobProgress: {'identifier': 'publisher_teste', 'progress': 'cmake'}
+[0.020495] (publisher_teste) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/publisher_teste', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/publisher_teste'], 'cwd': '/home/otavio/scicobot_rasp/src/build/publisher_teste', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7416081_d370_4849_8a45_0548b19bec8d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/src/build/publisher_teste'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.034625] (scicobot_encoder) JobProgress: {'identifier': 'scicobot_encoder', 'progress': 'cmake'}
+[0.034892] (scicobot_encoder) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/scicobot_encoder', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_encoder'], 'cwd': '/home/otavio/scicobot_rasp/src/build/scicobot_encoder', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7416081_d370_4849_8a45_0548b19bec8d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/src/build/scicobot_encoder'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.039399] (scicobot_move_on) JobProgress: {'identifier': 'scicobot_move_on', 'progress': 'cmake'}
+[0.039739] (scicobot_move_on) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/scicobot_move_on', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_move_on'], 'cwd': '/home/otavio/scicobot_rasp/src/build/scicobot_move_on', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7416081_d370_4849_8a45_0548b19bec8d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/src/build/scicobot_move_on'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.058751] (scicobot_ultrasonic) JobProgress: {'identifier': 'scicobot_ultrasonic', 'progress': 'cmake'}
+[0.059344] (scicobot_ultrasonic) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/scicobot_ultrasonic', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_ultrasonic'], 'cwd': '/home/otavio/scicobot_rasp/src/build/scicobot_ultrasonic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7416081_d370_4849_8a45_0548b19bec8d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/src/build/scicobot_ultrasonic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099326] (-) TimerEvent: {}
+[0.160977] (scicobot_encoder) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.167613] (scicobot_move_on) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.167863] (publisher_teste) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.179329] (scicobot_ultrasonic) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.199331] (-) TimerEvent: {}
+[0.256020] (scicobot_encoder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.262271] (scicobot_move_on) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.262501] (scicobot_ultrasonic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.265382] (publisher_teste) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.265820] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.267531] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.269623] (scicobot_move_on) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.272228] (publisher_teste) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299445] (-) TimerEvent: {}
+[0.364494] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.366389] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.371733] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.371933] (scicobot_move_on) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.372061] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.372969] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.373198] (publisher_teste) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.374308] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399543] (-) TimerEvent: {}
+[0.459286] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.467947] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.469026] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.478998] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.479364] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.483532] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.488514] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.488912] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.489384] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.491265] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.491477] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.493398] (scicobot_move_on) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.495509] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499641] (-) TimerEvent: {}
+[0.512544] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.513438] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.517474] (publisher_teste) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.590055] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.592049] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.595893] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.597484] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599743] (-) TimerEvent: {}
+[0.602692] (scicobot_move_on) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.604624] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.652874] (publisher_teste) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.654914] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700054] (-) TimerEvent: {}
+[0.700501] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.705009] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.722507] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.723558] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.723850] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.723997] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.724643] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.738301] (scicobot_ultrasonic) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.738520] (scicobot_ultrasonic) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.738625] (scicobot_ultrasonic) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.738718] (scicobot_ultrasonic) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.738880] (scicobot_ultrasonic) StderrLine: {'line': b'\n'}
+[0.738984] (scicobot_ultrasonic) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.739075] (scicobot_ultrasonic) StderrLine: {'line': b'  any of the following names:\n'}
+[0.739162] (scicobot_ultrasonic) StderrLine: {'line': b'\n'}
+[0.739248] (scicobot_ultrasonic) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.739333] (scicobot_ultrasonic) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.739419] (scicobot_ultrasonic) StderrLine: {'line': b'\n'}
+[0.739508] (scicobot_ultrasonic) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.739597] (scicobot_ultrasonic) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.739676] (scicobot_ultrasonic) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.739753] (scicobot_ultrasonic) StderrLine: {'line': b'  has been installed.\n'}
+[0.739828] (scicobot_ultrasonic) StderrLine: {'line': b'\n'}
+[0.739903] (scicobot_ultrasonic) StderrLine: {'line': b'\n'}
+[0.739979] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.740070] (scicobot_ultrasonic) StdoutLine: {'line': b'See also "/home/otavio/scicobot_rasp/src/build/scicobot_ultrasonic/CMakeFiles/CMakeOutput.log".\n'}
+[0.740863] (scicobot_encoder) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.741063] (scicobot_encoder) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.741162] (scicobot_encoder) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.741244] (scicobot_encoder) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.741332] (scicobot_encoder) StderrLine: {'line': b'\n'}
+[0.741419] (scicobot_encoder) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.741506] (scicobot_encoder) StderrLine: {'line': b'  any of the following names:\n'}
+[0.741592] (scicobot_encoder) StderrLine: {'line': b'\n'}
+[0.741678] (scicobot_encoder) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.741762] (scicobot_encoder) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.745059] (scicobot_encoder) StderrLine: {'line': b'\n'}
+[0.745304] (scicobot_encoder) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.745407] (scicobot_encoder) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.745504] (scicobot_encoder) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.745959] (scicobot_encoder) StderrLine: {'line': b'  has been installed.\n'}
+[0.746057] (scicobot_encoder) StderrLine: {'line': b'\n'}
+[0.746150] (scicobot_encoder) StderrLine: {'line': b'\n'}
+[0.746265] (scicobot_ultrasonic) CommandEnded: {'returncode': 1}
+[0.747035] (scicobot_encoder) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.747406] (scicobot_encoder) StdoutLine: {'line': b'See also "/home/otavio/scicobot_rasp/src/build/scicobot_encoder/CMakeFiles/CMakeOutput.log".\n'}
+[0.750797] (scicobot_encoder) CommandEnded: {'returncode': 1}
+[0.754715] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.755983] (scicobot_move_on) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.770643] (scicobot_move_on) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.771777] (scicobot_move_on) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.772036] (scicobot_move_on) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.772450] (scicobot_move_on) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.772989] (scicobot_move_on) StderrLine: {'line': b'\n'}
+[0.773181] (scicobot_move_on) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.773568] (scicobot_move_on) StderrLine: {'line': b'  any of the following names:\n'}
+[0.774116] (scicobot_move_on) StderrLine: {'line': b'\n'}
+[0.774275] (scicobot_move_on) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.774589] (scicobot_move_on) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.775133] (scicobot_move_on) StderrLine: {'line': b'\n'}
+[0.775290] (scicobot_move_on) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.775542] (scicobot_move_on) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.776033] (scicobot_move_on) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.776185] (scicobot_move_on) StderrLine: {'line': b'  has been installed.\n'}
+[0.776548] (scicobot_move_on) StderrLine: {'line': b'\n'}
+[0.776775] (scicobot_move_on) StderrLine: {'line': b'\n'}
+[0.776989] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.777325] (scicobot_move_on) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.777911] (scicobot_move_on) StdoutLine: {'line': b'See also "/home/otavio/scicobot_rasp/src/build/scicobot_move_on/CMakeFiles/CMakeOutput.log".\n'}
+[0.778018] (scicobot_ultrasonic) JobEnded: {'identifier': 'scicobot_ultrasonic', 'rc': 1}
+[0.778330] (scicobot_move_on) JobEnded: {'identifier': 'scicobot_move_on', 'rc': 'SIGINT'}
+[0.778531] (scicobot_encoder) JobEnded: {'identifier': 'scicobot_encoder', 'rc': 'SIGINT'}
+[0.782842] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.783340] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.792341] (publisher_teste) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.792500] (publisher_teste) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.792571] (publisher_teste) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.792673] (publisher_teste) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.792728] (publisher_teste) StderrLine: {'line': b'\n'}
+[0.792782] (publisher_teste) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.792835] (publisher_teste) StderrLine: {'line': b'  any of the following names:\n'}
+[0.792886] (publisher_teste) StderrLine: {'line': b'\n'}
+[0.792937] (publisher_teste) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.792989] (publisher_teste) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.793040] (publisher_teste) StderrLine: {'line': b'\n'}
+[0.793091] (publisher_teste) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.793141] (publisher_teste) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.793191] (publisher_teste) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.793242] (publisher_teste) StderrLine: {'line': b'  has been installed.\n'}
+[0.793293] (publisher_teste) StderrLine: {'line': b'\n'}
+[0.793344] (publisher_teste) StderrLine: {'line': b'\n'}
+[0.793395] (publisher_teste) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.793453] (publisher_teste) StdoutLine: {'line': b'See also "/home/otavio/scicobot_rasp/src/build/publisher_teste/CMakeFiles/CMakeOutput.log".\n'}
+[0.795379] (publisher_teste) JobEnded: {'identifier': 'publisher_teste', 'rc': 'SIGINT'}
+[0.800213] (-) TimerEvent: {}
+[0.805892] (test_cooperation_scicobot) JobSkipped: {'identifier': 'test_cooperation_scicobot'}
+[0.805975] (teste) JobSkipped: {'identifier': 'teste'}
+[0.806008] (-) EventReactorShutdown: {}

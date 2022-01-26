@@ -1,0 +1,4 @@
+Invoking command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/test_cooperation_scicobot -- -j4 -l4
+Invoked command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/test_cooperation_scicobot -- -j4 -l4
+Invoking command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
+Invoked command in '/home/otavio/scicobot_rasp/build/test_cooperation_scicobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
