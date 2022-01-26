@@ -14,6 +14,17 @@ Criar um editor para enviar dados publicados dados, para isso, é os dados dos s
 
 Criar um inscrito para receber dados publicados do ultrassônico e escreve na janela os valores obtidos.
 
+### teleop_twist_keyboard
+
+É um projeto externo disponível [aqui](https://index.ros.org/r/teleop_twist_keyboard/#foxy). Ele é utilizado pelo Scicobot para movimentar o robô a partir de comandos do teclado. Para isso, instale o pacote antes de usar
+
+```
+sudo apt install ros-foxy-teleop-twist-keyboard
+```
+Depois use o comando a seguir para executar o pacote
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 
 ## Trabalhos futuros
 - Adicionar aplicação que executa a dinâmica de trabalho 
