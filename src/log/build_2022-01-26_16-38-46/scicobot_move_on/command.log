@@ -1,1 +1,0 @@
-Invoking command in '/home/otavio/scicobot_rasp/src/build/scicobot_move_on': /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_move_on -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/src/install/scicobot_move_on
