@@ -25,7 +25,7 @@ Depois use o comando a seguir para executar o pacote
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
-
+**NOTA:** obviamente, para todos os pacotes criados, é necessário a correta execução no arduino.
 ## Trabalhos futuros
 - Adicionar aplicação que executa a dinâmica de trabalho 
 ```
