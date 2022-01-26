@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(scicobot_move)
+project(scicobot_move_on)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -14,11 +14,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
   
-add_executable(move src/scicobot_publisher_move.cpp)
-ament_target_dependencies(move rclcpp std_msgs)
+add_executable(move_on src/scicobot_publisher_move.cpp)
+ament_target_dependencies(move_on rclcpp std_msgs)
 
 install(TARGETS
-  move
+  (move_on 
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
