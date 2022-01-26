@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1ce3e/fast && /usr/bin/make -f CMakeFiles/cmTC_1ce3e.dir/build.make CMakeFiles/cmTC_1ce3e.dir/build
+make[1]: Entrando no diretório '/home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ce3e.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1ce3e.dir/src.c.o   -c /home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1ce3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ce3e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_1ce3e.dir/src.c.o  -o cmTC_1ce3e 
+/usr/bin/ld: CMakeFiles/cmTC_1ce3e.dir/src.c.o: na função "main":
+src.c:(.text+0x46): referência não definida para "pthread_create"
+/usr/bin/ld: src.c:(.text+0x52): referência não definida para "pthread_detach"
+/usr/bin/ld: src.c:(.text+0x63): referência não definida para "pthread_join"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1ce3e.dir/build.make:87: cmTC_1ce3e] Erro 1
+make[1]: Saindo do diretório '/home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1ce3e/fast] Erro 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_23041/fast && /usr/bin/make -f CMakeFiles/cmTC_23041.dir/build.make CMakeFiles/cmTC_23041.dir/build
+make[1]: Entrando no diretório '/home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23041.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_23041.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23041
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23041.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_23041.dir/CheckFunctionExists.c.o  -o cmTC_23041  -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_23041.dir/build.make:87: cmTC_23041] Erro 1
+make[1]: Saindo do diretório '/home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_23041/fast] Erro 2
+
+
+

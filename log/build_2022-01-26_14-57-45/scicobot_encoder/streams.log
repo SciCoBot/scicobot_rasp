@@ -1,0 +1,38 @@
+[0.076s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_encoder -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_encoder
+[1.501s] -- The C compiler identification is GNU 9.3.0
+[2.143s] -- The CXX compiler identification is GNU 9.3.0
+[2.153s] -- Check for working C compiler: /usr/bin/cc
+[2.260s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.261s] -- Detecting C compiler ABI info
+[2.336s] -- Detecting C compiler ABI info - done
+[2.353s] -- Detecting C compile features
+[2.353s] -- Detecting C compile features - done
+[2.357s] -- Check for working CXX compiler: /usr/bin/c++
+[2.460s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.461s] -- Detecting CXX compiler ABI info
+[2.559s] -- Detecting CXX compiler ABI info - done
+[2.577s] -- Detecting CXX compile features
+[2.578s] -- Detecting CXX compile features - done
+[2.612s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.665s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.665s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.963s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.106s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.670s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.982s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.999s] -- Looking for pthread.h
+[4.476s] -- Looking for pthread.h - found
+[4.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.563s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.563s] -- Looking for pthread_create in pthreads
+[4.629s] -- Looking for pthread_create in pthreads - not found
+[4.630s] -- Looking for pthread_create in pthread
+[4.714s] -- Looking for pthread_create in pthread - found
+[4.714s] -- Found Threads: TRUE  
+[5.215s] -- Configuring done
+[5.224s] -- Generating done
+[5.226s] -- Build files have been written to: /home/otavio/scicobot_rasp/build/scicobot_encoder

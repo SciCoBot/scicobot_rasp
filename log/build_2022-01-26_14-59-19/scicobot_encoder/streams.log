@@ -1,0 +1,5 @@
+[0.033s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_encoder -- -j4 -l4
+[0.085s] [35m[1mScanning dependencies of target listener_encoder[0m
+[0.580s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_encoder.dir/src/scicobot_subscriber_encoder.cpp.o[0m
+[7.461s] [100%] [32m[1mLinking CXX executable listener_encoder[0m
+[7.681s] [100%] Built target listener_encoder

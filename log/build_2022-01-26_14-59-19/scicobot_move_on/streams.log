@@ -1,0 +1,7 @@
+[0.030s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_move_on -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_move_on
+[0.043s] -- Configuring incomplete, errors occurred!
+[0.048s] CMake Error at CMakeLists.txt:20:
+[0.048s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.048s] 
+[0.048s] 
+[0.056s] Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_move_on -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_move_on

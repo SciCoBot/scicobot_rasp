@@ -1,0 +1,19 @@
+[100%] Built target listener_ultrasonic
+-- Install configuration: ""
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/lib/scicobot_ultrasonic/listener_ultrasonic
+-- Set runtime path of "/home/otavio/scicobot_rasp/install/scicobot_ultrasonic/lib/scicobot_ultrasonic/listener_ultrasonic" to ""
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/ament_index/resource_index/package_run_dependencies/scicobot_ultrasonic
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/ament_index/resource_index/parent_prefix_path/scicobot_ultrasonic
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/ament_prefix_path.sh
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/ament_prefix_path.dsv
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/path.sh
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/path.dsv
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.bash
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.sh
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.zsh
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.dsv
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/package.dsv
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/ament_index/resource_index/packages/scicobot_ultrasonic
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/cmake/scicobot_ultrasonicConfig.cmake
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/cmake/scicobot_ultrasonicConfig-version.cmake
+-- Installing: /home/otavio/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/package.xml

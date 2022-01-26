@@ -1,0 +1,10 @@
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/install/strip.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/install/local.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/install.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/list_install_components.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/rebuild_cache.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/edit_cache.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/test.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/teste.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/teste_uninstall.dir
+/home/otavio/scicobot_rasp/build/teste/CMakeFiles/uninstall.dir

@@ -1,0 +1,16 @@
+/home/otavio/scicobot_rasp/install/teste/lib/teste/teste
+/home/otavio/scicobot_rasp/install/teste/share/ament_index/resource_index/package_run_dependencies/teste
+/home/otavio/scicobot_rasp/install/teste/share/ament_index/resource_index/parent_prefix_path/teste
+/home/otavio/scicobot_rasp/install/teste/share/teste/environment/ament_prefix_path.sh
+/home/otavio/scicobot_rasp/install/teste/share/teste/environment/ament_prefix_path.dsv
+/home/otavio/scicobot_rasp/install/teste/share/teste/environment/path.sh
+/home/otavio/scicobot_rasp/install/teste/share/teste/environment/path.dsv
+/home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.bash
+/home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.sh
+/home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.zsh
+/home/otavio/scicobot_rasp/install/teste/share/teste/local_setup.dsv
+/home/otavio/scicobot_rasp/install/teste/share/teste/package.dsv
+/home/otavio/scicobot_rasp/install/teste/share/ament_index/resource_index/packages/teste
+/home/otavio/scicobot_rasp/install/teste/share/teste/cmake/testeConfig.cmake
+/home/otavio/scicobot_rasp/install/teste/share/teste/cmake/testeConfig-version.cmake
+/home/otavio/scicobot_rasp/install/teste/share/teste/package.xml

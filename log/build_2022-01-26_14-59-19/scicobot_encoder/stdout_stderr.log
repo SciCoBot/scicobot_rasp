@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target listener_encoder[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener_encoder.dir/src/scicobot_subscriber_encoder.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listener_encoder[0m
+[100%] Built target listener_encoder

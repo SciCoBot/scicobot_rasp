@@ -1,0 +1,38 @@
+[0.108s] Invoking command in '/home/otavio/scicobot_rasp/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/publisher_teste -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/publisher_teste
+[1.558s] -- The C compiler identification is GNU 9.3.0
+[2.193s] -- The CXX compiler identification is GNU 9.3.0
+[2.208s] -- Check for working C compiler: /usr/bin/cc
+[2.334s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.335s] -- Detecting C compiler ABI info
+[2.428s] -- Detecting C compiler ABI info - done
+[2.455s] -- Detecting C compile features
+[2.456s] -- Detecting C compile features - done
+[2.456s] -- Check for working CXX compiler: /usr/bin/c++
+[2.538s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.539s] -- Detecting CXX compiler ABI info
+[2.641s] -- Detecting CXX compiler ABI info - done
+[2.653s] -- Detecting CXX compile features
+[2.654s] -- Detecting CXX compile features - done
+[2.676s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.731s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.731s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.029s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.166s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.691s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.733s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.045s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.048s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.063s] -- Looking for pthread.h
+[4.533s] -- Looking for pthread.h - found
+[4.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.622s] -- Looking for pthread_create in pthreads
+[4.701s] -- Looking for pthread_create in pthreads - not found
+[4.701s] -- Looking for pthread_create in pthread
+[4.778s] -- Looking for pthread_create in pthread - found
+[4.779s] -- Found Threads: TRUE  
+[5.272s] -- Configuring done
+[5.279s] -- Generating done
+[5.280s] -- Build files have been written to: /home/otavio/scicobot_rasp/build/publisher_teste

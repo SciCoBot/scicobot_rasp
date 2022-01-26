@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.003124] (publisher_teste) JobQueued: {'identifier': 'publisher_teste', 'dependencies': OrderedDict()}
+[0.003311] (scicobot_encoder) JobQueued: {'identifier': 'scicobot_encoder', 'dependencies': OrderedDict()}
+[0.003416] (scicobot_move_on) JobQueued: {'identifier': 'scicobot_move_on', 'dependencies': OrderedDict()}
+[0.003499] (scicobot_ultrasonic) JobQueued: {'identifier': 'scicobot_ultrasonic', 'dependencies': OrderedDict()}
+[0.003574] (teste) JobQueued: {'identifier': 'teste', 'dependencies': OrderedDict()}
+[0.003662] (publisher_teste) JobStarted: {'identifier': 'publisher_teste'}
+[0.066625] (scicobot_encoder) JobStarted: {'identifier': 'scicobot_encoder'}
+[0.087001] (scicobot_move_on) JobStarted: {'identifier': 'scicobot_move_on'}
+[0.099018] (-) TimerEvent: {}
+[0.102071] (scicobot_ultrasonic) JobStarted: {'identifier': 'scicobot_ultrasonic'}
+[0.110886] (publisher_teste) JobProgress: {'identifier': 'publisher_teste', 'progress': 'cmake'}
+[0.111165] (publisher_teste) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/publisher_teste', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/publisher_teste'], 'cwd': '/home/otavio/scicobot_rasp/build/publisher_teste', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af1c33a1_2cf7_4c76_abc8_0989e9ed7078'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/build/publisher_teste'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.140351] (scicobot_encoder) JobProgress: {'identifier': 'scicobot_encoder', 'progress': 'cmake'}
+[0.140670] (scicobot_encoder) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/scicobot_encoder', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_encoder'], 'cwd': '/home/otavio/scicobot_rasp/build/scicobot_encoder', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af1c33a1_2cf7_4c76_abc8_0989e9ed7078'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/build/scicobot_encoder'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.144232] (scicobot_move_on) JobProgress: {'identifier': 'scicobot_move_on', 'progress': 'cmake'}
+[0.144422] (scicobot_move_on) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/scicobot_move_on', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_move_on'], 'cwd': '/home/otavio/scicobot_rasp/build/scicobot_move_on', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af1c33a1_2cf7_4c76_abc8_0989e9ed7078'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/build/scicobot_move_on'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.148406] (scicobot_ultrasonic) JobProgress: {'identifier': 'scicobot_ultrasonic', 'progress': 'cmake'}
+[0.148608] (scicobot_ultrasonic) Command: {'cmd': ['/usr/bin/cmake', '/home/otavio/scicobot_rasp/src/scicobot_ultrasonic', '-DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_ultrasonic'], 'cwd': '/home/otavio/scicobot_rasp/build/scicobot_ultrasonic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'otavio'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1381'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/otavio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'otavio'), ('JOURNAL_STREAM', '8:37559'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'otavio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/otavio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/otavio-To-be-filled-by-O-E-M:@/tmp/.ICE-unix/1442,unix/otavio-To-be-filled-by-O-E-M:/tmp/.ICE-unix/1442'), ('INVOCATION_ID', '3b35aef1a31c4b09a93ba6d68b48ed3e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af1c33a1_2cf7_4c76_abc8_0989e9ed7078'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/otavio/scicobot_rasp/build/scicobot_ultrasonic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4b86d9e393d310e2d61f0e9561f1829a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.199156] (-) TimerEvent: {}
+[0.299953] (-) TimerEvent: {}
+[0.368511] (scicobot_move_on) StderrLine: {'line': b'CMake Error at CMakeLists.txt:20:\n'}
+[0.369124] (scicobot_move_on) StderrLine: {'line': b'  Parse error.  Function missing ending ")".  End of file reached.\n'}
+[0.369535] (scicobot_move_on) StderrLine: {'line': b'\n'}
+[0.370038] (scicobot_move_on) StderrLine: {'line': b'\n'}
+[0.370725] (scicobot_move_on) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.378068] (scicobot_move_on) CommandEnded: {'returncode': 1}
+[0.400345] (-) TimerEvent: {}
+[0.502235] (-) TimerEvent: {}
+[0.602942] (-) TimerEvent: {}
+[0.624689] (scicobot_move_on) JobEnded: {'identifier': 'scicobot_move_on', 'rc': 1}
+[0.703140] (-) TimerEvent: {}
+[0.803835] (-) TimerEvent: {}
+[0.904560] (-) TimerEvent: {}
+[1.005260] (-) TimerEvent: {}
+[1.106261] (-) TimerEvent: {}
+[1.206961] (-) TimerEvent: {}
+[1.307609] (-) TimerEvent: {}
+[1.408419] (-) TimerEvent: {}
+[1.509101] (-) TimerEvent: {}
+[1.561157] (publisher_teste) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.566939] (scicobot_ultrasonic) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.567985] (scicobot_encoder) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.609274] (-) TimerEvent: {}
+[1.710057] (-) TimerEvent: {}
+[1.810731] (-) TimerEvent: {}
+[1.911430] (-) TimerEvent: {}
+[2.012056] (-) TimerEvent: {}
+[2.112771] (-) TimerEvent: {}
+[2.196255] (publisher_teste) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.207940] (scicobot_ultrasonic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.210116] (scicobot_encoder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.211949] (publisher_teste) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.212843] (-) TimerEvent: {}
+[2.215844] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.220227] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.312952] (-) TimerEvent: {}
+[2.327308] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.328812] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.334496] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.335683] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.337316] (publisher_teste) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.338349] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.403486] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.413063] (-) TimerEvent: {}
+[2.413809] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.420001] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.420675] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.424743] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.425234] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.425648] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.428015] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.431445] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.451698] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.459525] (publisher_teste) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.459731] (publisher_teste) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.513177] (-) TimerEvent: {}
+[2.518216] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.519667] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.527255] (scicobot_encoder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.528763] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.541977] (publisher_teste) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.543138] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.613290] (-) TimerEvent: {}
+[2.613618] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.625665] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.626105] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.626387] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.644442] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.644852] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.645257] (scicobot_encoder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.656900] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.657366] (publisher_teste) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.679194] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.679534] (publisher_teste) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.679715] (scicobot_encoder) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.713379] (-) TimerEvent: {}
+[2.732114] (scicobot_encoder) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.732348] (scicobot_encoder) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.734821] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.735059] (publisher_teste) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.735187] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.735297] (publisher_teste) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.813471] (-) TimerEvent: {}
+[2.913760] (-) TimerEvent: {}
+[2.986265] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.013857] (-) TimerEvent: {}
+[3.030602] (scicobot_encoder) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.032894] (publisher_teste) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.113950] (-) TimerEvent: {}
+[3.148075] (scicobot_encoder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.148307] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.148481] (publisher_teste) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.170142] (publisher_teste) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.173220] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.173466] (scicobot_encoder) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.214074] (-) TimerEvent: {}
+[3.314716] (-) TimerEvent: {}
+[3.415921] (-) TimerEvent: {}
+[3.516612] (-) TimerEvent: {}
+[3.617829] (-) TimerEvent: {}
+[3.694513] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.695178] (publisher_teste) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.695309] (scicobot_encoder) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.717891] (-) TimerEvent: {}
+[3.727661] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.737133] (publisher_teste) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.737285] (scicobot_encoder) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.818082] (-) TimerEvent: {}
+[3.918945] (-) TimerEvent: {}
+[3.955822] (publisher_teste) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.956016] (scicobot_encoder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.956124] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.019046] (-) TimerEvent: {}
+[4.048442] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.048638] (publisher_teste) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.049247] (scicobot_encoder) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.051450] (scicobot_ultrasonic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.051706] (publisher_teste) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.051788] (scicobot_encoder) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.066798] (scicobot_encoder) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.067054] (publisher_teste) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.067188] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.119147] (-) TimerEvent: {}
+[4.219521] (-) TimerEvent: {}
+[4.320217] (-) TimerEvent: {}
+[4.420881] (-) TimerEvent: {}
+[4.522368] (-) TimerEvent: {}
+[4.526219] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.526586] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.536966] (publisher_teste) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.537407] (publisher_teste) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.543599] (scicobot_encoder) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.543805] (scicobot_encoder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.622481] (-) TimerEvent: {}
+[4.625091] (publisher_teste) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.625319] (publisher_teste) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.630567] (scicobot_encoder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.630836] (scicobot_encoder) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.637192] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.637403] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.696846] (scicobot_encoder) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.697121] (scicobot_encoder) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.704308] (publisher_teste) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.704596] (publisher_teste) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.712664] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.712881] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.722574] (-) TimerEvent: {}
+[4.780962] (scicobot_encoder) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.781192] (scicobot_encoder) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.781558] (publisher_teste) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.783053] (publisher_teste) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.793089] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.794119] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.822784] (-) TimerEvent: {}
+[4.924059] (-) TimerEvent: {}
+[5.025089] (-) TimerEvent: {}
+[5.125412] (-) TimerEvent: {}
+[5.225792] (-) TimerEvent: {}
+[5.275738] (publisher_teste) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.279508] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.282074] (scicobot_encoder) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.282633] (publisher_teste) StdoutLine: {'line': b'-- Generating done\n'}
+[5.283936] (publisher_teste) StdoutLine: {'line': b'-- Build files have been written to: /home/otavio/scicobot_rasp/build/publisher_teste\n'}
+[5.289195] (publisher_teste) JobEnded: {'identifier': 'publisher_teste', 'rc': 'SIGINT'}
+[5.289597] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Generating done\n'}
+[5.291330] (scicobot_ultrasonic) StdoutLine: {'line': b'-- Build files have been written to: /home/otavio/scicobot_rasp/build/scicobot_ultrasonic\n'}
+[5.291866] (scicobot_encoder) StdoutLine: {'line': b'-- Generating done\n'}
+[5.293841] (scicobot_encoder) StdoutLine: {'line': b'-- Build files have been written to: /home/otavio/scicobot_rasp/build/scicobot_encoder\n'}
+[5.298391] (scicobot_ultrasonic) JobEnded: {'identifier': 'scicobot_ultrasonic', 'rc': 'SIGINT'}
+[5.303815] (scicobot_encoder) JobEnded: {'identifier': 'scicobot_encoder', 'rc': 'SIGINT'}
+[5.314293] (teste) JobSkipped: {'identifier': 'teste'}
+[5.314386] (-) EventReactorShutdown: {}

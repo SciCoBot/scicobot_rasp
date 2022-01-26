@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target listener_ultrasonic[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener_ultrasonic.dir/src/scicobot_subscriber_ultrasonic.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listener_ultrasonic[0m
+[100%] Built target listener_ultrasonic

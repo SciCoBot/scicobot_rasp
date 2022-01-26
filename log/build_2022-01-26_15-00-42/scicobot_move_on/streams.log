@@ -1,0 +1,39 @@
+[0.033s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_move_on -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_move_on
+[0.057s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.352s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.393s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.767s] -- Configuring done
+[0.773s] -- Generating done
+[0.775s] -- Build files have been written to: /home/otavio/scicobot_rasp/build/scicobot_move_on
+[0.781s] Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_move_on -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_move_on
+[0.783s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_move_on -- -j4 -l4
+[0.822s] [35m[1mScanning dependencies of target move_on[0m
+[0.897s] [ 50%] [32mBuilding CXX object CMakeFiles/move_on.dir/src/scicobot_publisher_move_on.cpp.o[0m
+[6.982s] [100%] [32m[1mLinking CXX executable move_on[0m
+[7.275s] [100%] Built target move_on
+[7.289s] Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_move_on -- -j4 -l4
+[7.309s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/scicobot_move_on
+[7.318s] -- Install configuration: ""
+[7.319s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/lib/scicobot_move_on/move_on
+[7.321s] -- Set runtime path of "/home/otavio/scicobot_rasp/install/scicobot_move_on/lib/scicobot_move_on/move_on" to ""
+[7.321s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/ament_index/resource_index/package_run_dependencies/scicobot_move_on
+[7.321s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/ament_index/resource_index/parent_prefix_path/scicobot_move_on
+[7.321s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/ament_prefix_path.sh
+[7.322s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/ament_prefix_path.dsv
+[7.322s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/path.sh
+[7.322s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/environment/path.dsv
+[7.322s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.bash
+[7.322s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.sh
+[7.322s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.zsh
+[7.322s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/local_setup.dsv
+[7.323s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/package.dsv
+[7.323s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/ament_index/resource_index/packages/scicobot_move_on
+[7.323s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/cmake/scicobot_move_onConfig.cmake
+[7.323s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/cmake/scicobot_move_onConfig-version.cmake
+[7.323s] -- Installing: /home/otavio/scicobot_rasp/install/scicobot_move_on/share/scicobot_move_on/package.xml
+[7.326s] Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/scicobot_move_on
