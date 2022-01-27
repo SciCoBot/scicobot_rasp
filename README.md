@@ -42,7 +42,7 @@ sudo micro-xrce-dds-agent serial --dev /dev/ttyACM0 -v6
 e depois execute o pacote ROS2 desejado.
 
 ## Teste multi-robôs
-
+Usa scicobot_encoder, test_cooperation_rasp e test_cooperation_scicobot
 - Scicobot 1:
   - Raspberry:
     - Tela 1:
