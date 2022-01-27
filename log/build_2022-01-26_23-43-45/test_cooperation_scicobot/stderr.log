@@ -1,7 +1,0 @@
-[01m[K/home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp:58:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
-   58 |   rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr [01;31m[Ksubscription_temperature[m[K
-      |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
-      |                                                                                   [32m[K;[m[K
-make[2]: *** [CMakeFiles/cooperation_scicobot.dir/build.make:63: CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o] Erro 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cooperation_scicobot.dir/all] Erro 2
-make: *** [Makefile:141: all] Erro 2

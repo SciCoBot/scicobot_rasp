@@ -1,7 +1,0 @@
-[01m[K/home/otavio/dev_ws/src/scicobot_encoder/src/scicobot_subscriber_encoder.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/UInt8.hpp: Arquivo ou diretório inexistente
-   19 | #include [01;31m[K<std_msgs/msg/UInt8.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/scicobot_subscriber_encoder.cpp.o] Erro 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Erro 2
-make: *** [Makefile:141: all] Erro 2

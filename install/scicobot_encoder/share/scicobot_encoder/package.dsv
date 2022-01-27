@@ -1,8 +1,0 @@
-source;share/scicobot_encoder/hook/cmake_prefix_path.ps1
-source;share/scicobot_encoder/hook/cmake_prefix_path.dsv
-source;share/scicobot_encoder/hook/cmake_prefix_path.sh
-source;share/scicobot_encoder/local_setup.bash
-source;share/scicobot_encoder/local_setup.dsv
-source;share/scicobot_encoder/local_setup.ps1
-source;share/scicobot_encoder/local_setup.sh
-source;share/scicobot_encoder/local_setup.zsh

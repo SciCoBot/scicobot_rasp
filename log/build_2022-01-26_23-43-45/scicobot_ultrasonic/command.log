@@ -1,4 +1,0 @@
-Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic -- -j4 -l4
-Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic -- -j4 -l4
-Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic
-Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic
