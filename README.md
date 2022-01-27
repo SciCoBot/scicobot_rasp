@@ -40,3 +40,33 @@ snap connect micro-xrce-dds-agent:serial-port snapd:<slots snapd>
 sudo micro-xrce-dds-agent serial --dev /dev/ttyACM0 -v6
 ```
 e depois execute o pacote ROS2 desejado.
+
+## Teste multi-robôs
+
+- Scicobot 1:
+  - Raspberry:
+    - Tela 1:
+    ```
+    source /opt/ros/foxy/setup.bash
+    ros2 run teleop_twist_keyboard teleop_twist_keyboard
+    ```
+    - Tela 2:
+    ```
+    source /opt/ros/foxy/setup.bash
+    ros2 run scicobot_encoder listener_encoder
+    ```
+     - Tela 3:
+     ```
+     source /opt/ros/foxy/setup.bash
+     ros2 run test_cooperation_scicobot cooperation_scicobot
+     ```
+     - Tela 4: micro-xrce-dds-agent
+   - Arduino: [exemplo encoder_moveTwist](https://github.com/SciCoBot/scicobot_arduino/blob/main/examples/encoder_moveTwist/encoder_moveTwist.ino)
+   
+- Scicobot 2:
+  - Raspberry:
+    - Tela 1:
+     ```
+     source /opt/ros/foxy/setup.bash
+     ros2 run test_cooperation_rasp operation_rasp
+     ```
