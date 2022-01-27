@@ -70,3 +70,19 @@ e depois execute o pacote ROS2 desejado.
      source /opt/ros/foxy/setup.bash
      ros2 run test_cooperation_rasp operation_rasp
      ```
+<p align="center">
+  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/telas_rasp.png"/ height="400" width="750">
+</p>
+
+### Comportamento inesperado
+
+Tem-se que o comportamento esperado é:
+<p align="center">
+  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/comportamento_pc.png"/ >
+</p>
+
+No entanto, o resultado foi:
+<p align="center">
+  <img src="https://github.com/SciCoBot/scicobot_rasp/blob/main/images/comportamento_rasp.png"/ >
+</p>
+É estranho o fato de não aparecer o nó do arduino, de todo modo, os tópicos estão funcionam adequadamente, logo, as trocas de mensagens não parecem ter sido afetadas.
