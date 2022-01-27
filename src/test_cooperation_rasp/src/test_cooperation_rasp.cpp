@@ -35,7 +35,7 @@ float tempMeasure()
     fclose(thermal);
     systemp = millideg / 1000;
 
-    printf("CPU temperature is %f degrees C\n",systemp);
+    //printf("CPU temperature is %f degrees C\n",systemp);
 
     return systemp;
 }

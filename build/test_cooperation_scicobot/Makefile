@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/test_cooperation_scicobot
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -206,32 +206,32 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/simple_test_cooperation.o: src/simple_test_cooperation.cpp.o
+src/test_cooperation_scicobot.o: src/test_cooperation_scicobot.cpp.o
 
-.PHONY : src/simple_test_cooperation.o
+.PHONY : src/test_cooperation_scicobot.o
 
 # target to build an object file
-src/simple_test_cooperation.cpp.o:
-	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o
-.PHONY : src/simple_test_cooperation.cpp.o
+src/test_cooperation_scicobot.cpp.o:
+	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o
+.PHONY : src/test_cooperation_scicobot.cpp.o
 
-src/simple_test_cooperation.i: src/simple_test_cooperation.cpp.i
+src/test_cooperation_scicobot.i: src/test_cooperation_scicobot.cpp.i
 
-.PHONY : src/simple_test_cooperation.i
+.PHONY : src/test_cooperation_scicobot.i
 
 # target to preprocess a source file
-src/simple_test_cooperation.cpp.i:
-	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.i
-.PHONY : src/simple_test_cooperation.cpp.i
+src/test_cooperation_scicobot.cpp.i:
+	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.i
+.PHONY : src/test_cooperation_scicobot.cpp.i
 
-src/simple_test_cooperation.s: src/simple_test_cooperation.cpp.s
+src/test_cooperation_scicobot.s: src/test_cooperation_scicobot.cpp.s
 
-.PHONY : src/simple_test_cooperation.s
+.PHONY : src/test_cooperation_scicobot.s
 
 # target to generate assembly for a file
-src/simple_test_cooperation.cpp.s:
-	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.s
-.PHONY : src/simple_test_cooperation.cpp.s
+src/test_cooperation_scicobot.cpp.s:
+	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.s
+.PHONY : src/test_cooperation_scicobot.cpp.s
 
 # Help Target
 help:
@@ -249,9 +249,9 @@ help:
 	@echo "... cooperation_scicobot"
 	@echo "... test_cooperation_scicobot_uninstall"
 	@echo "... uninstall"
-	@echo "... src/simple_test_cooperation.o"
-	@echo "... src/simple_test_cooperation.i"
-	@echo "... src/simple_test_cooperation.s"
+	@echo "... src/test_cooperation_scicobot.o"
+	@echo "... src/test_cooperation_scicobot.i"
+	@echo "... src/test_cooperation_scicobot.s"
 .PHONY : help
 
 

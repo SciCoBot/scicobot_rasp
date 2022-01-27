@@ -1,0 +1,1 @@
+Invoking command in '/home/otavio/excluir/scicobot_rasp/build/test_cooperation_rasp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/test_cooperation_rasp -- -j4 -l4

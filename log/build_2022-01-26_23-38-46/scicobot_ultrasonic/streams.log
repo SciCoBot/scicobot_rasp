@@ -1,0 +1,65 @@
+[0.043s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic
+[1.012s] -- The C compiler identification is GNU 9.3.0
+[1.739s] -- The CXX compiler identification is GNU 9.3.0
+[1.813s] -- Check for working C compiler: /usr/bin/cc
+[2.074s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.075s] -- Detecting C compiler ABI info
+[2.186s] -- Detecting C compiler ABI info - done
+[2.211s] -- Detecting C compile features
+[2.212s] -- Detecting C compile features - done
+[2.215s] -- Check for working CXX compiler: /usr/bin/c++
+[2.336s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.338s] -- Detecting CXX compiler ABI info
+[2.493s] -- Detecting CXX compiler ABI info - done
+[2.500s] -- Detecting CXX compile features
+[2.500s] -- Detecting CXX compile features - done
+[2.509s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.556s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.966s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.321s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.858s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.905s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.783s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.788s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.815s] -- Looking for pthread.h
+[5.150s] -- Looking for pthread.h - found
+[5.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.273s] -- Looking for pthread_create in pthreads
+[5.353s] -- Looking for pthread_create in pthreads - not found
+[5.353s] -- Looking for pthread_create in pthread
+[5.451s] -- Looking for pthread_create in pthread - found
+[5.451s] -- Found Threads: TRUE  
+[5.990s] -- Configuring done
+[6.001s] -- Generating done
+[6.004s] -- Build files have been written to: /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic
+[6.026s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic
+[6.028s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic -- -j4 -l4
+[6.084s] [35m[1mScanning dependencies of target listener_ultrasonic[0m
+[6.599s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_ultrasonic.dir/src/scicobot_subscriber_ultrasonic.cpp.o[0m
+[14.192s] [100%] [32m[1mLinking CXX executable listener_ultrasonic[0m
+[14.604s] [100%] Built target listener_ultrasonic
+[14.622s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic -- -j4 -l4
+[14.662s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic
+[14.676s] -- Install configuration: ""
+[14.677s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/lib/scicobot_ultrasonic/listener_ultrasonic
+[14.680s] -- Set runtime path of "/home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/lib/scicobot_ultrasonic/listener_ultrasonic" to ""
+[14.681s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/ament_index/resource_index/package_run_dependencies/scicobot_ultrasonic
+[14.682s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/ament_index/resource_index/parent_prefix_path/scicobot_ultrasonic
+[14.682s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/ament_prefix_path.sh
+[14.683s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/ament_prefix_path.dsv
+[14.683s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/path.sh
+[14.684s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/environment/path.dsv
+[14.685s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.bash
+[14.685s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.sh
+[14.686s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.zsh
+[14.686s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/local_setup.dsv
+[14.687s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/package.dsv
+[14.688s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/ament_index/resource_index/packages/scicobot_ultrasonic
+[14.688s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/cmake/scicobot_ultrasonicConfig.cmake
+[14.689s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/cmake/scicobot_ultrasonicConfig-version.cmake
+[14.690s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic/share/scicobot_ultrasonic/package.xml
+[14.695s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic

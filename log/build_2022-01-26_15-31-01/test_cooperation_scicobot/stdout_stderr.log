@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target cooperation[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/cooperation.dir/src/simple_test_cooperation.cpp.o[0m
-[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:[m[K In member function ‘[01m[Kvoid MinimalNode::topic_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
-[01m[K/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
-   40 |      publisher_move->publish(msg->[01;31m[Kdata[m[K);
-      |                                   [01;31m[K^~~~[m[K
-make[2]: *** [CMakeFiles/cooperation.dir/build.make:63: CMakeFiles/cooperation.dir/src/simple_test_cooperation.cpp.o] Erro 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cooperation.dir/all] Erro 2
-make: *** [Makefile:141: all] Erro 2

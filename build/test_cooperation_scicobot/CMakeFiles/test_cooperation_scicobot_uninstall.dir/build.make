@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/test_cooperation_scicobot
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot
 
 # Utility rule file for test_cooperation_scicobot_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
 include CMakeFiles/test_cooperation_scicobot_uninstall.dir/progress.make
 
 CMakeFiles/test_cooperation_scicobot_uninstall:
-	/usr/bin/cmake -P /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 test_cooperation_scicobot_uninstall: CMakeFiles/test_cooperation_scicobot_uninstall
 test_cooperation_scicobot_uninstall: CMakeFiles/test_cooperation_scicobot_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/test_cooperation_scicobot_uninstall.dir/clean:
 .PHONY : CMakeFiles/test_cooperation_scicobot_uninstall.dir/clean
 
 CMakeFiles/test_cooperation_scicobot_uninstall.dir/depend:
-	cd /home/otavio/scicobot_rasp/build/test_cooperation_scicobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles/test_cooperation_scicobot_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles/test_cooperation_scicobot_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_cooperation_scicobot_uninstall.dir/depend
 

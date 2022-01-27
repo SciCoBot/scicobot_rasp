@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/publisher_teste
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/publisher_teste
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/publisher_teste
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/publisher_teste
 
 # Utility rule file for publisher_teste_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/publisher_teste
 include CMakeFiles/publisher_teste_uninstall.dir/progress.make
 
 CMakeFiles/publisher_teste_uninstall:
-	/usr/bin/cmake -P /home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 publisher_teste_uninstall: CMakeFiles/publisher_teste_uninstall
 publisher_teste_uninstall: CMakeFiles/publisher_teste_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/publisher_teste_uninstall.dir/clean:
 .PHONY : CMakeFiles/publisher_teste_uninstall.dir/clean
 
 CMakeFiles/publisher_teste_uninstall.dir/depend:
-	cd /home/otavio/scicobot_rasp/build/publisher_teste && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/scicobot_rasp/src/publisher_teste /home/otavio/scicobot_rasp/src/publisher_teste /home/otavio/scicobot_rasp/build/publisher_teste /home/otavio/scicobot_rasp/build/publisher_teste /home/otavio/scicobot_rasp/build/publisher_teste/CMakeFiles/publisher_teste_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/otavio/excluir/scicobot_rasp/build/publisher_teste && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/excluir/scicobot_rasp/src/publisher_teste /home/otavio/excluir/scicobot_rasp/src/publisher_teste /home/otavio/excluir/scicobot_rasp/build/publisher_teste /home/otavio/excluir/scicobot_rasp/build/publisher_teste /home/otavio/excluir/scicobot_rasp/build/publisher_teste/CMakeFiles/publisher_teste_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/publisher_teste_uninstall.dir/depend
 

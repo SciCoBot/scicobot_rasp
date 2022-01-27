@@ -1,1 +1,0 @@
-Invoking command in '/home/otavio/scicobot_rasp/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/publisher_teste -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/publisher_teste

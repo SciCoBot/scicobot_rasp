@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/otavio/scicobot_rasp/src/scicobot_move_on/src/scicobot_publisher_move_on.cpp
+/home/otavio/excluir/scicobot_rasp/src/scicobot_move_on/src/scicobot_publisher_move_on.cpp
 chrono
 -
 functional
@@ -16,9 +16,9 @@ memory
 string
 -
 rclcpp/rclcpp.hpp
-/home/otavio/scicobot_rasp/src/scicobot_move_on/src/rclcpp/rclcpp.hpp
+/home/otavio/excluir/scicobot_rasp/src/scicobot_move_on/src/rclcpp/rclcpp.hpp
 std_msgs/msg/bool.hpp
-/home/otavio/scicobot_rasp/src/scicobot_move_on/src/std_msgs/msg/bool.hpp
+/home/otavio/excluir/scicobot_rasp/src/scicobot_move_on/src/std_msgs/msg/bool.hpp
 std_msgs/msg/float32.hpp
 -
 std_msgs/msg/u_int8.hpp

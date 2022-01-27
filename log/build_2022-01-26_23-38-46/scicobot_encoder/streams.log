@@ -1,0 +1,65 @@
+[0.032s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/scicobot_encoder -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/scicobot_encoder
+[1.022s] -- The C compiler identification is GNU 9.3.0
+[1.752s] -- The CXX compiler identification is GNU 9.3.0
+[1.823s] -- Check for working C compiler: /usr/bin/cc
+[2.084s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.086s] -- Detecting C compiler ABI info
+[2.190s] -- Detecting C compiler ABI info - done
+[2.209s] -- Detecting C compile features
+[2.210s] -- Detecting C compile features - done
+[2.213s] -- Check for working CXX compiler: /usr/bin/c++
+[2.340s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.341s] -- Detecting CXX compiler ABI info
+[2.488s] -- Detecting CXX compiler ABI info - done
+[2.503s] -- Detecting CXX compile features
+[2.504s] -- Detecting CXX compile features - done
+[2.520s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.582s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.977s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.344s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.869s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.909s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.793s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.799s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.825s] -- Looking for pthread.h
+[5.167s] -- Looking for pthread.h - found
+[5.167s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.279s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.279s] -- Looking for pthread_create in pthreads
+[5.364s] -- Looking for pthread_create in pthreads - not found
+[5.364s] -- Looking for pthread_create in pthread
+[5.465s] -- Looking for pthread_create in pthread - found
+[5.467s] -- Found Threads: TRUE  
+[6.001s] -- Configuring done
+[6.011s] -- Generating done
+[6.013s] -- Build files have been written to: /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder
+[6.029s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/scicobot_encoder -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/scicobot_encoder
+[6.032s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder -- -j4 -l4
+[6.087s] [35m[1mScanning dependencies of target listener_encoder[0m
+[6.605s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_encoder.dir/src/scicobot_subscriber_encoder.cpp.o[0m
+[14.523s] [100%] [32m[1mLinking CXX executable listener_encoder[0m
+[14.928s] [100%] Built target listener_encoder
+[14.944s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder -- -j4 -l4
+[14.980s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_encoder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder
+[14.996s] -- Install configuration: ""
+[14.997s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/lib/scicobot_encoder/listener_encoder
+[15.000s] -- Set runtime path of "/home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/lib/scicobot_encoder/listener_encoder" to ""
+[15.000s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/ament_index/resource_index/package_run_dependencies/scicobot_encoder
+[15.001s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/ament_index/resource_index/parent_prefix_path/scicobot_encoder
+[15.001s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/environment/ament_prefix_path.sh
+[15.002s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/environment/ament_prefix_path.dsv
+[15.003s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/environment/path.sh
+[15.003s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/environment/path.dsv
+[15.004s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/local_setup.bash
+[15.004s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/local_setup.sh
+[15.005s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/local_setup.zsh
+[15.005s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/local_setup.dsv
+[15.006s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/package.dsv
+[15.006s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/ament_index/resource_index/packages/scicobot_encoder
+[15.006s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/cmake/scicobot_encoderConfig.cmake
+[15.006s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/cmake/scicobot_encoderConfig-version.cmake
+[15.006s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/scicobot_encoder/share/scicobot_encoder/package.xml
+[15.012s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/scicobot_encoder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder

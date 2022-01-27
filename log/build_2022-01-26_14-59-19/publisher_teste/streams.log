@@ -1,5 +1,0 @@
-[0.032s] Invoking command in '/home/otavio/scicobot_rasp/build/publisher_teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/publisher_teste -- -j4 -l4
-[0.085s] [35m[1mScanning dependencies of target pub_tes[0m
-[0.600s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_tes.dir/src/publisher_teste.cpp.o[0m
-[5.787s] [100%] [32m[1mLinking CXX executable pub_tes[0m
-[6.284s] [100%] Built target pub_tes

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/publisher_teste
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/publisher_teste
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/publisher_teste
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/publisher_teste
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/publisher_teste/CMakeFiles /home/otavio/scicobot_rasp/build/publisher_teste/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/publisher_teste/CMakeFiles /home/otavio/excluir/scicobot_rasp/build/publisher_teste/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/publisher_teste/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/publisher_teste/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

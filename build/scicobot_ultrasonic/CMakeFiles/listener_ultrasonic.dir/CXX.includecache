@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/otavio/scicobot_rasp/src/scicobot_ultrasonic/src/scicobot_subscriber_ultrasonic.cpp
+/home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic/src/scicobot_subscriber_ultrasonic.cpp
 memory
 -
 rclcpp/rclcpp.hpp
-/home/otavio/scicobot_rasp/src/scicobot_ultrasonic/src/rclcpp/rclcpp.hpp
+/home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic/src/rclcpp/rclcpp.hpp
 std_msgs/msg/float32.hpp
 -
 

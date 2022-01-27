@@ -1,5 +1,0 @@
-[0.042s] Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_ultrasonic -- -j4 -l4
-[0.087s] [35m[1mScanning dependencies of target listener_ultrasonic[0m
-[0.587s] [ 50%] [32mBuilding CXX object CMakeFiles/listener_ultrasonic.dir/src/scicobot_subscriber_ultrasonic.cpp.o[0m
-[6.447s] [100%] [32m[1mLinking CXX executable listener_ultrasonic[0m
-[6.707s] [100%] Built target listener_ultrasonic

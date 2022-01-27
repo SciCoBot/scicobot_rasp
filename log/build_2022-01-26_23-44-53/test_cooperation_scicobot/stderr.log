@@ -1,0 +1,4 @@
+[01m[K/home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp:[m[K In member function ‘[01m[Kvoid MinimalNode::topic_callback_temperature(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp:52:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmessage[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   52 |      auto [01;35m[Kmessage[m[K = std_msgs::msg::Float64();
+      |           [01;35m[K^~~~~~~[m[K

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/otavio/scicobot_rasp/src/test_cooperation_rasp/src/test_cooperation_rasp.cpp
+/home/otavio/excluir/scicobot_rasp/src/test_cooperation_rasp/src/test_cooperation_rasp.cpp
 memory
 -
 rclcpp/rclcpp.hpp
-/home/otavio/scicobot_rasp/src/test_cooperation_rasp/src/rclcpp/rclcpp.hpp
+/home/otavio/excluir/scicobot_rasp/src/test_cooperation_rasp/src/rclcpp/rclcpp.hpp
 std_msgs/msg/u_int8.hpp
 -
 std_msgs/msg/float64.hpp

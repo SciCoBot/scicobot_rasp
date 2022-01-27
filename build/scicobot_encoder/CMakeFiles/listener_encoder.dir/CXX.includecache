@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/otavio/scicobot_rasp/src/scicobot_encoder/src/scicobot_subscriber_encoder.cpp
+/home/otavio/excluir/scicobot_rasp/src/scicobot_encoder/src/scicobot_subscriber_encoder.cpp
 memory
 -
 rclcpp/rclcpp.hpp
-/home/otavio/scicobot_rasp/src/scicobot_encoder/src/rclcpp/rclcpp.hpp
+/home/otavio/excluir/scicobot_rasp/src/scicobot_encoder/src/rclcpp/rclcpp.hpp
 std_msgs/msg/u_int8.hpp
 -
 

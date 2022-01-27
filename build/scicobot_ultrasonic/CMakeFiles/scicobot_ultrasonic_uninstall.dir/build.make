@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/scicobot_ultrasonic
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/scicobot_ultrasonic
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic
 
 # Utility rule file for scicobot_ultrasonic_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/scicobot_ultrasonic
 include CMakeFiles/scicobot_ultrasonic_uninstall.dir/progress.make
 
 CMakeFiles/scicobot_ultrasonic_uninstall:
-	/usr/bin/cmake -P /home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 scicobot_ultrasonic_uninstall: CMakeFiles/scicobot_ultrasonic_uninstall
 scicobot_ultrasonic_uninstall: CMakeFiles/scicobot_ultrasonic_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/scicobot_ultrasonic_uninstall.dir/clean:
 .PHONY : CMakeFiles/scicobot_ultrasonic_uninstall.dir/clean
 
 CMakeFiles/scicobot_ultrasonic_uninstall.dir/depend:
-	cd /home/otavio/scicobot_rasp/build/scicobot_ultrasonic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/scicobot_rasp/src/scicobot_ultrasonic /home/otavio/scicobot_rasp/src/scicobot_ultrasonic /home/otavio/scicobot_rasp/build/scicobot_ultrasonic /home/otavio/scicobot_rasp/build/scicobot_ultrasonic /home/otavio/scicobot_rasp/build/scicobot_ultrasonic/CMakeFiles/scicobot_ultrasonic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic /home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic /home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/CMakeFiles/scicobot_ultrasonic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scicobot_ultrasonic_uninstall.dir/depend
 

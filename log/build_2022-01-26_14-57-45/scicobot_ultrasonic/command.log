@@ -1,1 +1,0 @@
-Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/scicobot_rasp/src/scicobot_ultrasonic -DCMAKE_INSTALL_PREFIX=/home/otavio/scicobot_rasp/install/scicobot_ultrasonic

@@ -1,8 +1,8 @@
-# Install script for directory: /home/otavio/scicobot_rasp/src/scicobot_ultrasonic
+# Install script for directory: /home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/otavio/scicobot_rasp/install/scicobot_ultrasonic")
+  set(CMAKE_INSTALL_PREFIX "/home/otavio/excluir/scicobot_rasp/install/scicobot_ultrasonic")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/scicobot_ultrasonic/listener_ultrasonic"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/scicobot_ultrasonic" TYPE EXECUTABLE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/listener_ultrasonic")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/scicobot_ultrasonic" TYPE EXECUTABLE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/listener_ultrasonic")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/scicobot_ultrasonic/listener_ultrasonic" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/scicobot_ultrasonic/listener_ultrasonic")
     file(RPATH_CHANGE
@@ -58,11 +58,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/scicobot_ultrasonic")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/scicobot_ultrasonic")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/scicobot_ultrasonic")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/scicobot_ultrasonic")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic/environment" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic/environment" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -78,42 +78,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic/environment" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic/environment" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_index/share/ament_index/resource_index/packages/scicobot_ultrasonic")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_index/share/ament_index/resource_index/packages/scicobot_ultrasonic")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic/cmake" TYPE FILE FILES
-    "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_core/scicobot_ultrasonicConfig.cmake"
-    "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_core/scicobot_ultrasonicConfig-version.cmake"
+    "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_core/scicobot_ultrasonicConfig.cmake"
+    "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/ament_cmake_core/scicobot_ultrasonicConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/scicobot_rasp/src/scicobot_ultrasonic/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scicobot_ultrasonic" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/src/scicobot_ultrasonic/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -124,5 +124,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/otavio/scicobot_rasp/build/scicobot_ultrasonic/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/otavio/excluir/scicobot_rasp/build/scicobot_ultrasonic/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

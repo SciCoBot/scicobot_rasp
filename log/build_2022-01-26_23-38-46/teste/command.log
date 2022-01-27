@@ -1,0 +1,6 @@
+Invoking command in '/home/otavio/excluir/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/teste -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/teste
+Invoked command in '/home/otavio/excluir/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/teste -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/teste
+Invoking command in '/home/otavio/excluir/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/teste -- -j4 -l4
+Invoked command in '/home/otavio/excluir/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/teste -- -j4 -l4
+Invoking command in '/home/otavio/excluir/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/teste
+Invoked command in '/home/otavio/excluir/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/teste

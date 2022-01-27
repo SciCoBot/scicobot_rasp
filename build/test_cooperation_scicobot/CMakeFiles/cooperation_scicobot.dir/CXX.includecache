@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp
+/home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp
 memory
 -
 rclcpp/rclcpp.hpp
-/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/rclcpp/rclcpp.hpp
+/home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/rclcpp/rclcpp.hpp
 std_msgs/msg/u_int8.hpp
+-
+std_msgs/msg/float64.hpp
 -
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
@@ -3884,6 +3886,42 @@ statistics_msgs/msg/detail/metrics_message__builder.hpp
 statistics_msgs/msg/detail/metrics_message__traits.hpp
 /opt/ros/foxy/include/statistics_msgs/msg/statistics_msgs/msg/detail/metrics_message__traits.hpp
 
+/opt/ros/foxy/include/std_msgs/msg/detail/float64__builder.hpp
+std_msgs/msg/detail/float64__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/detail/std_msgs/msg/detail/float64__struct.hpp
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+utility
+-
+
+/opt/ros/foxy/include/std_msgs/msg/detail/float64__struct.hpp
+rosidl_runtime_cpp/bounded_vector.hpp
+-
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+array
+-
+memory
+-
+string
+-
+vector
+-
+
+/opt/ros/foxy/include/std_msgs/msg/detail/float64__traits.hpp
+std_msgs/msg/detail/float64__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/detail/std_msgs/msg/detail/float64__struct.hpp
+rosidl_runtime_cpp/traits.hpp
+-
+stdint.h
+-
+type_traits
+-
+
 /opt/ros/foxy/include/std_msgs/msg/detail/u_int8__builder.hpp
 std_msgs/msg/detail/u_int8__struct.hpp
 /opt/ros/foxy/include/std_msgs/msg/detail/std_msgs/msg/detail/u_int8__struct.hpp
@@ -3919,6 +3957,14 @@ stdint.h
 -
 type_traits
 -
+
+/opt/ros/foxy/include/std_msgs/msg/float64.hpp
+std_msgs/msg/detail/float64__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/float64__struct.hpp
+std_msgs/msg/detail/float64__builder.hpp
+/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/float64__builder.hpp
+std_msgs/msg/detail/float64__traits.hpp
+/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/float64__traits.hpp
 
 /opt/ros/foxy/include/std_msgs/msg/u_int8.hpp
 std_msgs/msg/detail/u_int8__struct.hpp

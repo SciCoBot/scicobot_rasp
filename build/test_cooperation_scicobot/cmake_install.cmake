@@ -1,8 +1,8 @@
-# Install script for directory: /home/otavio/scicobot_rasp/src/test_cooperation_scicobot
+# Install script for directory: /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/otavio/scicobot_rasp/install/test_cooperation_scicobot")
+  set(CMAKE_INSTALL_PREFIX "/home/otavio/excluir/scicobot_rasp/install/test_cooperation_scicobot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_cooperation_scicobot/cooperation_scicobot"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_cooperation_scicobot" TYPE EXECUTABLE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/cooperation_scicobot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_cooperation_scicobot" TYPE EXECUTABLE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/cooperation_scicobot")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_cooperation_scicobot/cooperation_scicobot" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_cooperation_scicobot/cooperation_scicobot")
     file(RPATH_CHANGE
@@ -58,11 +58,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_cooperation_scicobot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_cooperation_scicobot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_cooperation_scicobot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_cooperation_scicobot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot/environment" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot/environment" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -78,42 +78,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot/environment" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot/environment" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_index/share/ament_index/resource_index/packages/test_cooperation_scicobot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_index/share/ament_index/resource_index/packages/test_cooperation_scicobot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot/cmake" TYPE FILE FILES
-    "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_core/test_cooperation_scicobotConfig.cmake"
-    "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_core/test_cooperation_scicobotConfig-version.cmake"
+    "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_core/test_cooperation_scicobotConfig.cmake"
+    "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/ament_cmake_core/test_cooperation_scicobotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/scicobot_rasp/src/test_cooperation_scicobot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_cooperation_scicobot" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -124,5 +124,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

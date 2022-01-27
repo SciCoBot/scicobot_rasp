@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/scicobot_move_on
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/scicobot_move_on
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/scicobot_move_on
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/scicobot_move_on
 
 # Utility rule file for scicobot_move_on_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/scicobot_move_on
 include CMakeFiles/scicobot_move_on_uninstall.dir/progress.make
 
 CMakeFiles/scicobot_move_on_uninstall:
-	/usr/bin/cmake -P /home/otavio/scicobot_rasp/build/scicobot_move_on/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/otavio/excluir/scicobot_rasp/build/scicobot_move_on/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 scicobot_move_on_uninstall: CMakeFiles/scicobot_move_on_uninstall
 scicobot_move_on_uninstall: CMakeFiles/scicobot_move_on_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/scicobot_move_on_uninstall.dir/clean:
 .PHONY : CMakeFiles/scicobot_move_on_uninstall.dir/clean
 
 CMakeFiles/scicobot_move_on_uninstall.dir/depend:
-	cd /home/otavio/scicobot_rasp/build/scicobot_move_on && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/scicobot_rasp/src/scicobot_move_on /home/otavio/scicobot_rasp/src/scicobot_move_on /home/otavio/scicobot_rasp/build/scicobot_move_on /home/otavio/scicobot_rasp/build/scicobot_move_on /home/otavio/scicobot_rasp/build/scicobot_move_on/CMakeFiles/scicobot_move_on_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/otavio/excluir/scicobot_rasp/build/scicobot_move_on && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/excluir/scicobot_rasp/src/scicobot_move_on /home/otavio/excluir/scicobot_rasp/src/scicobot_move_on /home/otavio/excluir/scicobot_rasp/build/scicobot_move_on /home/otavio/excluir/scicobot_rasp/build/scicobot_move_on /home/otavio/excluir/scicobot_rasp/build/scicobot_move_on/CMakeFiles/scicobot_move_on_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scicobot_move_on_uninstall.dir/depend
 

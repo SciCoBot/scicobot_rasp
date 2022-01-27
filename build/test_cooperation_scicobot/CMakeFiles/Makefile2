@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/test_cooperation_scicobot
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -76,14 +76,14 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/cooperation_scicobot.dir/all:
 	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/depend
 	$(MAKE) -f CMakeFiles/cooperation_scicobot.dir/build.make CMakeFiles/cooperation_scicobot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num=1,2 "Built target cooperation_scicobot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num=1,2 "Built target cooperation_scicobot"
 .PHONY : CMakeFiles/cooperation_scicobot.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cooperation_scicobot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cooperation_scicobot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
 .PHONY : CMakeFiles/cooperation_scicobot.dir/rule
 
 # Convenience name for target.
@@ -103,14 +103,14 @@ CMakeFiles/cooperation_scicobot.dir/clean:
 CMakeFiles/test_cooperation_scicobot_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/test_cooperation_scicobot_uninstall.dir/build.make CMakeFiles/test_cooperation_scicobot_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/test_cooperation_scicobot_uninstall.dir/build.make CMakeFiles/test_cooperation_scicobot_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num= "Built target test_cooperation_scicobot_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num= "Built target test_cooperation_scicobot_uninstall"
 .PHONY : CMakeFiles/test_cooperation_scicobot_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_cooperation_scicobot_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_cooperation_scicobot_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
 .PHONY : CMakeFiles/test_cooperation_scicobot_uninstall.dir/rule
 
 # Convenience name for target.
@@ -130,14 +130,14 @@ CMakeFiles/test_cooperation_scicobot_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/test_cooperation_scicobot_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

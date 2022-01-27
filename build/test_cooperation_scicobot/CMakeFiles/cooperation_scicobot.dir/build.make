@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/test_cooperation_scicobot
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/test_cooperation_scicobot
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cooperation_scicobot.dir/depend.make
@@ -57,27 +57,27 @@ include CMakeFiles/cooperation_scicobot.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cooperation_scicobot.dir/flags.make
 
-CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o: CMakeFiles/cooperation_scicobot.dir/flags.make
-CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o: /home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o -c /home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp
+CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o: CMakeFiles/cooperation_scicobot.dir/flags.make
+CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o: /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o -c /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp
 
-CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp > CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.i
+CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp > CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.i
 
-CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/otavio/scicobot_rasp/src/test_cooperation_scicobot/src/simple_test_cooperation.cpp -o CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.s
+CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot/src/test_cooperation_scicobot.cpp -o CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.s
 
 # Object files for target cooperation_scicobot
 cooperation_scicobot_OBJECTS = \
-"CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o"
+"CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o"
 
 # External object files for target cooperation_scicobot
 cooperation_scicobot_EXTERNAL_OBJECTS =
 
-cooperation_scicobot: CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o
+cooperation_scicobot: CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o
 cooperation_scicobot: CMakeFiles/cooperation_scicobot.dir/build.make
 cooperation_scicobot: /opt/ros/foxy/lib/librclcpp.so
 cooperation_scicobot: /opt/ros/foxy/lib/liblibstatistics_collector.so
@@ -127,7 +127,7 @@ cooperation_scicobot: /opt/ros/foxy/lib/librosidl_runtime_c.so
 cooperation_scicobot: /opt/ros/foxy/lib/librcutils.so
 cooperation_scicobot: /opt/ros/foxy/lib/libtracetools.so
 cooperation_scicobot: CMakeFiles/cooperation_scicobot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cooperation_scicobot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cooperation_scicobot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cooperation_scicobot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +140,6 @@ CMakeFiles/cooperation_scicobot.dir/clean:
 .PHONY : CMakeFiles/cooperation_scicobot.dir/clean
 
 CMakeFiles/cooperation_scicobot.dir/depend:
-	cd /home/otavio/scicobot_rasp/build/test_cooperation_scicobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles/cooperation_scicobot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/src/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot /home/otavio/excluir/scicobot_rasp/build/test_cooperation_scicobot/CMakeFiles/cooperation_scicobot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cooperation_scicobot.dir/depend
 

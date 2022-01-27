@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/otavio/scicobot_rasp/src/teste/src/teste.cpp
+/home/otavio/excluir/scicobot_rasp/src/teste/src/teste.cpp
 rclcpp/rclcpp.hpp
-/home/otavio/scicobot_rasp/src/teste/src/rclcpp/rclcpp.hpp
+/home/otavio/excluir/scicobot_rasp/src/teste/src/rclcpp/rclcpp.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

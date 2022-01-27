@@ -14,7 +14,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
   
-add_executable(cooperation_scicobot src/simple_test_cooperation.cpp)
+add_executable(cooperation_scicobot src/test_cooperation_scicobot.cpp)
 ament_target_dependencies(cooperation_scicobot rclcpp std_msgs)
 
 install(TARGETS

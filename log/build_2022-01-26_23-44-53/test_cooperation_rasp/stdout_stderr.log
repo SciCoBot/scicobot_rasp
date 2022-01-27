@@ -1,0 +1,19 @@
+[100%] Built target cooperation_rasp
+-- Install configuration: ""
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/lib/test_cooperation_rasp/cooperation_rasp
+-- Set runtime path of "/home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/lib/test_cooperation_rasp/cooperation_rasp" to ""
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/ament_index/resource_index/package_run_dependencies/test_cooperation_rasp
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/ament_index/resource_index/parent_prefix_path/test_cooperation_rasp
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/environment/ament_prefix_path.sh
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/environment/ament_prefix_path.dsv
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/environment/path.sh
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/environment/path.dsv
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/local_setup.bash
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/local_setup.sh
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/local_setup.zsh
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/local_setup.dsv
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/package.dsv
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/ament_index/resource_index/packages/test_cooperation_rasp
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/cmake/test_cooperation_raspConfig.cmake
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/cmake/test_cooperation_raspConfig-version.cmake
+-- Installing: /home/otavio/excluir/scicobot_rasp/install/test_cooperation_rasp/share/test_cooperation_rasp/package.xml

@@ -1,4 +1,0 @@
-Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_move_on -- -j4 -l4
-Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/scicobot_rasp/build/scicobot_move_on -- -j4 -l4
-Invoking command in '/home/otavio/scicobot_rasp/build/scicobot_move_on': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/scicobot_move_on
-Invoked command in '/home/otavio/scicobot_rasp/build/scicobot_move_on' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/scicobot_rasp/build/scicobot_move_on

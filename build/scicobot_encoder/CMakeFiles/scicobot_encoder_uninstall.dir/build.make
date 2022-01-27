@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/otavio/scicobot_rasp/src/scicobot_encoder
+CMAKE_SOURCE_DIR = /home/otavio/excluir/scicobot_rasp/src/scicobot_encoder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/scicobot_encoder
+CMAKE_BINARY_DIR = /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder
 
 # Utility rule file for scicobot_encoder_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/otavio/scicobot_rasp/build/scicobot_encoder
 include CMakeFiles/scicobot_encoder_uninstall.dir/progress.make
 
 CMakeFiles/scicobot_encoder_uninstall:
-	/usr/bin/cmake -P /home/otavio/scicobot_rasp/build/scicobot_encoder/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 scicobot_encoder_uninstall: CMakeFiles/scicobot_encoder_uninstall
 scicobot_encoder_uninstall: CMakeFiles/scicobot_encoder_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/scicobot_encoder_uninstall.dir/clean:
 .PHONY : CMakeFiles/scicobot_encoder_uninstall.dir/clean
 
 CMakeFiles/scicobot_encoder_uninstall.dir/depend:
-	cd /home/otavio/scicobot_rasp/build/scicobot_encoder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/scicobot_rasp/src/scicobot_encoder /home/otavio/scicobot_rasp/src/scicobot_encoder /home/otavio/scicobot_rasp/build/scicobot_encoder /home/otavio/scicobot_rasp/build/scicobot_encoder /home/otavio/scicobot_rasp/build/scicobot_encoder/CMakeFiles/scicobot_encoder_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/otavio/excluir/scicobot_rasp/src/scicobot_encoder /home/otavio/excluir/scicobot_rasp/src/scicobot_encoder /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder /home/otavio/excluir/scicobot_rasp/build/scicobot_encoder/CMakeFiles/scicobot_encoder_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scicobot_encoder_uninstall.dir/depend
 

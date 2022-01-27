@@ -1,8 +1,8 @@
-# Install script for directory: /home/otavio/scicobot_rasp/src/publisher_teste
+# Install script for directory: /home/otavio/excluir/scicobot_rasp/src/publisher_teste
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/otavio/scicobot_rasp/install/publisher_teste")
+  set(CMAKE_INSTALL_PREFIX "/home/otavio/excluir/scicobot_rasp/install/publisher_teste")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/publisher_teste/pub_tes"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/publisher_teste" TYPE EXECUTABLE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/pub_tes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/publisher_teste" TYPE EXECUTABLE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/pub_tes")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/publisher_teste/pub_tes" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/publisher_teste/pub_tes")
     file(RPATH_CHANGE
@@ -58,11 +58,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/publisher_teste")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/publisher_teste")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/publisher_teste")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/publisher_teste")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste/environment" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste/environment" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -78,42 +78,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste/environment" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste/environment" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_index/share/ament_index/resource_index/packages/publisher_teste")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_index/share/ament_index/resource_index/packages/publisher_teste")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste/cmake" TYPE FILE FILES
-    "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_core/publisher_testeConfig.cmake"
-    "/home/otavio/scicobot_rasp/build/publisher_teste/ament_cmake_core/publisher_testeConfig-version.cmake"
+    "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_core/publisher_testeConfig.cmake"
+    "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/ament_cmake_core/publisher_testeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/scicobot_rasp/src/publisher_teste/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/publisher_teste" TYPE FILE FILES "/home/otavio/excluir/scicobot_rasp/src/publisher_teste/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -124,5 +124,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/otavio/scicobot_rasp/build/publisher_teste/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/otavio/excluir/scicobot_rasp/build/publisher_teste/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cooperation_scicobot.dir/src/simple_test_cooperation.cpp.o"
+  "CMakeFiles/cooperation_scicobot.dir/src/test_cooperation_scicobot.cpp.o"
   "cooperation_scicobot"
   "cooperation_scicobot.pdb"
 )

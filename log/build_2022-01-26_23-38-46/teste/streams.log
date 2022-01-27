@@ -1,0 +1,65 @@
+[0.028s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/teste -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/teste
+[0.121s] -- The C compiler identification is GNU 9.3.0
+[0.202s] -- The CXX compiler identification is GNU 9.3.0
+[0.209s] -- Check for working C compiler: /usr/bin/cc
+[0.332s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.333s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.458s] -- Detecting C compile features
+[0.459s] -- Detecting C compile features - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++
+[0.574s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.576s] -- Detecting CXX compiler ABI info
+[0.697s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Detecting CXX compile features
+[0.731s] -- Detecting CXX compile features - done
+[0.735s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.772s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.772s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.102s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.178s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.307s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.350s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.554s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.557s] -- Looking for pthread.h
+[1.665s] -- Looking for pthread.h - found
+[1.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.770s] -- Looking for pthread_create in pthreads
+[1.848s] -- Looking for pthread_create in pthreads - not found
+[1.848s] -- Looking for pthread_create in pthread
+[1.943s] -- Looking for pthread_create in pthread - found
+[1.944s] -- Found Threads: TRUE  
+[2.330s] -- Configuring done
+[2.339s] -- Generating done
+[2.341s] -- Build files have been written to: /home/otavio/excluir/scicobot_rasp/build/teste
+[2.351s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/otavio/excluir/scicobot_rasp/src/teste -DCMAKE_INSTALL_PREFIX=/home/otavio/excluir/scicobot_rasp/install/teste
+[2.352s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/teste -- -j4 -l4
+[2.406s] [35m[1mScanning dependencies of target teste[0m
+[2.477s] [ 50%] [32mBuilding CXX object CMakeFiles/teste.dir/src/teste.cpp.o[0m
+[4.428s] [100%] [32m[1mLinking CXX executable teste[0m
+[4.566s] [100%] Built target teste
+[4.577s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/otavio/excluir/scicobot_rasp/build/teste -- -j4 -l4
+[4.602s] Invoking command in '/home/otavio/excluir/scicobot_rasp/build/teste': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/teste
+[4.611s] -- Install configuration: ""
+[4.611s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/lib/teste/teste
+[4.612s] -- Set runtime path of "/home/otavio/excluir/scicobot_rasp/install/teste/lib/teste/teste" to ""
+[4.612s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/ament_index/resource_index/package_run_dependencies/teste
+[4.612s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/ament_index/resource_index/parent_prefix_path/teste
+[4.612s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/environment/ament_prefix_path.sh
+[4.612s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/environment/ament_prefix_path.dsv
+[4.613s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/environment/path.sh
+[4.613s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/environment/path.dsv
+[4.613s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/local_setup.bash
+[4.613s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/local_setup.sh
+[4.613s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/local_setup.zsh
+[4.614s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/local_setup.dsv
+[4.614s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/package.dsv
+[4.614s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/ament_index/resource_index/packages/teste
+[4.614s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/cmake/testeConfig.cmake
+[4.614s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/cmake/testeConfig-version.cmake
+[4.615s] -- Installing: /home/otavio/excluir/scicobot_rasp/install/teste/share/teste/package.xml
+[4.618s] Invoked command in '/home/otavio/excluir/scicobot_rasp/build/teste' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/otavio/excluir/scicobot_rasp/build/teste
