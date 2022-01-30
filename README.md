@@ -47,6 +47,12 @@ Usa scicobot_encoder, test_cooperation_rasp e test_cooperation_scicobot
   - Raspberry:
     - Tela 1:
     ```
+    cd microros_ws
+    source /opt/ros/foxy/setup.bash
+    ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
+
+    ```
+    ```
     source /opt/ros/foxy/setup.bash
     ros2 run teleop_twist_keyboard teleop_twist_keyboard
     ```
