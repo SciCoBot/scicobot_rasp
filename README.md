@@ -21,12 +21,63 @@ Criar um inscrito para receber dados publicados do ultrassônico e escreve na ja
 ```
 sudo apt install ros-foxy-teleop-twist-keyboard
 ```
-Depois use o comando a seguir para executar o pacote
+
+## Building dependências
+
+Para instalar, primeiro forneça sua instalação do ROS 2:
+```
+source /opt/ros/foxy/setup.bash
+```
+Baixe o projeto
+
+```
+git clone https://github.com/SciCoBot/scicobot_rasp.git .
+```
+Em /scicobot_rasp, verifique as dependências com:
+```
+rosdep install -i --from-path src --rosdistro foxy -y
+```
+Caso tenha sucesso, contrua o projeto com:
+```
+colcon build 
+```
+
+## Running
+
+Use o comando abaixo para configurar o espaço de trabalho conforme as necessidades dos projetos
+```
+. install/setup.bash
+```
+
+**NOTA:** cuidado para não executar . install/setup.bash no mesmo terminal no qual o projeto foi criado, isto pode gerar resultados inesperados/indesejados.
+
+
+Para executar um projeto, use:
+```
+ros2 run <nome do projeto> <nome do executável>
+```
+Por exemplo:
+
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
-**NOTA:** obviamente, para todos os pacotes criados, é necessário a correta execução no arduino.
-## Trabalhos futuros
+
+```
+ros2 run scicobot_encoder listener_encoder
+```
+
+```
+ros2 run test_cooperation_scicobot cooperation_scicobot
+```
+
+**NOTA:** Para funcionar corretamenta também é necessária a correta execução do software do arduino.
+
+## Building e running projetos ROS2 (foxy)
+
+- [Como realizar o buid e run de projetos ROS2 (foxy)](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html#build-and-run)
+
+## Nota de desenvolvimento - Melhorias
+
 - Adicionar aplicação que executa a dinâmica de trabalho 
 ```
 source /opt/ros/foxy/setup.bash
