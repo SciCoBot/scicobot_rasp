@@ -31,7 +31,7 @@ source /opt/ros/foxy/setup.bash
 Baixe o projeto
 
 ```
-git clone https://github.com/SciCoBot/scicobot_rasp.git .
+git clone https://github.com/SciCoBot/scicobot_rasp.git
 ```
 Em /scicobot_rasp, verifique as dependências com:
 ```
