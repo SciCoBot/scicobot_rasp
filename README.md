@@ -42,6 +42,11 @@ Caso tenha sucesso, contrua o projeto com:
 colcon build 
 ```
 
+Nota: Devido a limitação de hardware do raspberry o processo de build pode travar. Para esse caso, use a solução descrita [aqui](https://answers.ros.org/question/407554/colcon-build-freeze-a-raspberry-pi/). Essa solução altera o build em paralelo, padrão do colcon, para um build sequencial:
+```
+colcon build --executor sequential
+```
+
 ## Running
 
 Use o comando abaixo para configurar o espaço de trabalho conforme as necessidades dos projetos
